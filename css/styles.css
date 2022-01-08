@@ -1,0 +1,10 @@
+#content {
+    max-width: 500px;
+    margin: auto;
+  }
+
+#header-grid {
+    display: grid;
+    grid-template-columns: 0.3fr 0.7fr;
+    grid-gap: 1em;
+  }
