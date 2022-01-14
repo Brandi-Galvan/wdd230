@@ -12,23 +12,23 @@
     color: white;
     background-color: #ddd0c3;
     border-radius: 20px;
-    box-shadow: 0 0 10px 5px #cdc6bf;
+    box-shadow: 2px 2px 12px 2px #cdc6bf;
     padding: 20px;
     max-width: 100%;
   }
 
   h1 {
     font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 0 0 8px black;
+    text-shadow: 8px 3px 7px black;
   }
 
   h2 {
     font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 0 0 12px black;
+    text-shadow: 1px 2px 3px #cdc6bf;
   }
 
   img {
-    box-shadow: 0 0 8px 5px #cdc6bf;
+    box-shadow: 4px 3px 7px 0px #cdc6bf;
   }
 
   .divider-line {
