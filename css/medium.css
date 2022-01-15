@@ -1,0 +1,7 @@
+@media (min-width: 32.5em){
+h1 {
+    color: black;
+    text-shadow: 8px 3px 7px white;
+    font-size: 2.5em;
+  }
+}
