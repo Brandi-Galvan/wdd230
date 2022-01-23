@@ -91,12 +91,6 @@ body {
         background-color: #F5F2E9;
     }
 
-    section.home-grid {
-        padding: 1rem;
-        display: grid;
-        grid-template-columns: 256px 1fr;
-    }
-
     footer {
         font-family: 'Montserrat', sans-serif;
         display: grid;
@@ -113,10 +107,6 @@ body {
         font-weight: bold;
         font-size: 1.2em;
         margin-bottom: 20px;
-    }
-
-    .home-grid img {
-        align-self: center;
     }
 
     /* CSS for Color Scheme Page */
