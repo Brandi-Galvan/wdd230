@@ -2,11 +2,17 @@ body {
     background-color: #f5f2e9;
 }
 
+.gilbert-cc-logo
+{
+    height: 80px;
+}
+
 h1 {
     font-family: 'Frank Ruhl Libre', serif;
     color: #2F3E46;
-    font-size: 3.5em;
     padding-left: 5px;
+    justify-self: left;
+    line-height: 10px;
 }
 
 h2, h3, h4 {
@@ -14,21 +20,8 @@ h2, h3, h4 {
     color: #2F3E46;
 }
 
-p {
-    font-family: 'Montserrat', sans-serif;
-    color: #2F3E46;
-}
-
-header {
-    display: grid;
-    grid: 2fr 1fr / 1fr 2fr 2fr 1fr;
-    align-items: center;
-    justify-items: center;
-    font-size: .7em;
-    background-color: #a6c09b;
-    padding: 0.6em;
-    margin-bottom: .5rem;
-    grid-column-gap: .8rem;
+#chamberofcommerce{
+    font-size: .4em;
 }
 
 .social-icons {
@@ -36,16 +29,37 @@ header {
     grid-template-columns: 1fr 1fr;
 }
 
+.social-icons a img {
+    height: 40px;
+    padding: 2.5px;
+}
+
+.menu {
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #2F3E46;
+    font-style: italic;
+}
+
+header {
+    display: grid;
+    grid: 2fr 1fr / 1fr 2fr 2fr 1fr;
+    align-items: center;
+    justify-items: center;
+    font-size: .8em;
+    background-color: #a6c09b;
+    padding: 1em;
+    margin-bottom: .2rem;
+    grid-column-gap: .2rem;
+}
+
 a {
     background-color: #0000;
-}
-
-.social-icons a img {
-    padding: .3em;
-}
-
-.icon {
-    height: 50px;
 }
 
 nav {
@@ -55,7 +69,7 @@ nav {
 
 button {
     background-color: #2f3e46;
-    color: #fff;
+    color: #f5f2e9;
     border: none;
     font-size: 2em;
 }
@@ -102,6 +116,7 @@ button {
     grid-column: 1/5;
     align-self: center;
     color: #2F3E46;
+    font-size: 12px;
 }
 
 main {
@@ -110,7 +125,7 @@ main {
     grid-row-gap: 10px;
     padding: 1em;
     margin: auto 1rem;
-    font-size: .7em;
+    font-size: .8em;
 }
 
 main section {
@@ -146,7 +161,7 @@ main section {
 }
 
 .spotlight p {
-    border: 1px dotted #f5f2e9;
+    border: 1.5px solid #f5f2e9;
 }
 
 #spotlight3 {
@@ -158,8 +173,21 @@ footer {
     padding: 1em;
     background-color: #a6c09b;
     color: #2f3e46;
+    line-height: 7px;
 }
 
-.class-info {
-    padding: .5rem;
+hr {
+    border-top: 1px solid #f5f2e9;
+
+}
+
+.classFooter {
+    padding: .5em;
+    font-size: 20px;
+}
+
+.lastUpdated {
+    padding: .5em;
+    font-size: 15px;
+    color:#f5f2e9;
 }

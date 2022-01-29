@@ -1,7 +1,17 @@
 @media only screen and (min-width: 830px) {
 	header{
-        font-size: 1rem;
+        font-size: 1.2rem;
 		grid: 1fr / 1fr 1fr 2fr 1fr;
+    }
+
+	h1 {
+        justify-self: left;
+        line-height: 15px;
+    }
+
+	.header-sub {
+        display: inline;
+        font-size: .3em;
     }
 
 	nav {
@@ -13,8 +23,12 @@
 		grid-column: 4/5;
 	}
 
-	.logo {
-        width: 100px;
+	.gilbert-cc-logo {
+        justify-self: right;
+    }
+
+	.date {
+        font-size: 1em;
     }
 
 	main {

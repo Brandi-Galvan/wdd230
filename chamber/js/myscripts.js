@@ -4,6 +4,14 @@ document.getElementById(`currentdate`).textContent = new Date().toLocaleDateStri
 const year = {year: `numeric`};
 document.querySelector('#currentyear').textContent = new Date().toLocaleDateString(`en-US`, year);
 
+let now = new Date()
+let months = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ]
+let weekDays = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ]
+document.querySelector('.date').innerHTML = weekDays[now.getDay()]+", "
+                                                          +months[now.getMonth()]+" "
+                                                          +now.getDate()+", "
+                                                          +now.getFullYear()
+
 
 const menubutton = document.querySelector('.menu');
 const mainnav = document.querySelector('.navigation');
