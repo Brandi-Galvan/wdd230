@@ -1,3 +1,7 @@
+.banner {
+    display: none;
+}
+/* Header Styling*/
 body {
     background-color: #f5f2e9;
 }
@@ -62,6 +66,12 @@ a {
     background-color: #0000;
 }
 
+.header-sub {
+    display: none;
+}
+
+/* Navigation Styling */
+
 nav {
     margin: 0 auto;
     max-width: 760px;
@@ -106,10 +116,6 @@ button {
     color: #2F3E46;
 }
 
-.header-sub {
-    display: none;
-}
-
 .date {
     grid-row: 2/3;
     grid-column: 1/5;
@@ -118,6 +124,7 @@ button {
     font-size: 12px;
 }
 
+/* Body Styling */
 main {
     display: grid;
     grid: repeat(5, 1fr)/ 1fr;
@@ -132,65 +139,7 @@ main section {
     padding: .5em;
 }
 
-.join {
-    display: none;
-}
-
-.hidden {
-    display: none;
-}
-
-.responsive li {
-	display: block;
-}
-
-.responsive ul {
-    position: absolute;
-    width: 100%;
-}
-
-.responsive a {
-    background-color: #2f3e46;
-}
-
-.spotlight {
-    display: grid;
-    grid: 1fr 1fr / 1fr;
-    grid-row-gap: 2px;
-}
-
-.spotlight p {
-    border: 1.5px solid #f5f2e9;
-}
-
-#spotlight3 {
-    display: none;
-}
-
-footer {
-    text-align: center;
-    padding: 1em;
-    background-color: #a6c09b;
-    color: #2f3e46;
-    line-height: 7px;
-}
-
-hr {
-    border-top: 1px solid #f5f2e9;
-
-}
-
-.classFooter {
-    padding: .5em;
-    font-size: 20px;
-}
-
-.lastUpdated {
-    padding: .5em;
-    font-size: 15px;
-    color:#f5f2e9;
-}
-
+/* Hero Section Styling */
 .hero {
     overflow: hidden;
     display: grid;
@@ -221,7 +170,7 @@ hr {
     background-color: #d8c8ab;
     color: #f5f2e9;
     grid-column: 2/3;
-    grid-row: 1/2;
+    grid-row: 2/3;
     position: absolute;
     padding: 10px;
     margin-bottom: 1.5em;
@@ -231,18 +180,32 @@ hr {
     justify-self: right;
 }
 
+/* News Section Styling */
 .news p {
     padding: 0 1em 0 1em;
 }
 
+/* Spotlight Section Styling */
+.spotlight {
+    display: grid;
+    grid: 1fr 1fr / 1fr;
+    grid-row-gap: 2px;
+}
+
+.spotlight p {
+    border: 1.5px solid #f5f2e9;
+}
+
+#spotlight3 {
+    display: none;
+}
+
+/* Event Section Styling */
 .event {
     text-align:center;
 }
 
-.banner {
-    display: none;
-}
-
+/* Weather Section Styling */
 .weather {
     overflow: hidden;
     text-align:center;
@@ -253,16 +216,58 @@ hr {
     grid-row: 1/2;
 }
 
+/* Join Section Styling */
 .join {
+    display: none;
     text-align:center;
 }
 
 .joinButton {
     background-color: #2f3e46;
     color: #f5f2e9;
-    position: absolute;
     padding: 10px;
-    margin-bottom: 1.5em;
-    margin-right: 1.5em;
-    font-size: 2em;
+    font-size: 1.5em;
+}
+
+/* Other Styling */
+.hidden {
+    display: none;
+}
+
+.responsive li {
+	display: block;
+}
+
+.responsive ul {
+    position: absolute;
+    width: 100%;
+}
+
+.responsive a {
+    background-color: #2f3e46;
+}
+
+hr {
+    border-top: 1px solid #f5f2e9;
+
+}
+
+.lastUpdated {
+    padding: .5em;
+    font-size: 15px;
+    color:#f5f2e9;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #a6c09b;
+    color: #2f3e46;
+    line-height: 7px;
+}
+
+.classFooter {
+    padding: .5em;
+    font-size: 20px;
 }
