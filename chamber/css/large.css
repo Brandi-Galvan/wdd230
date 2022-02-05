@@ -89,6 +89,9 @@
     button {
         display: none;
     }
-
+.hero h2 {
+	padding: 0.5em;
+    font-size: 3em;
+}
 
 }

@@ -1,18 +1,8 @@
-const options = {day: `numeric`, month: `numeric`, year: `numeric`, hour: `numeric`, minute: `numeric`, second: `numeric`};
-document.getElementById(`currentdate`).textContent = new Date().toLocaleDateString(`en-US`, options);
+// last modified date
+let text = document.lastModified;
+document.getElementById("updatedDate").innerHTML = text;
 
-const year = {year: `numeric`};
-document.querySelector('#currentyear').textContent = new Date().toLocaleDateString(`en-US`, year);
-
-let now = new Date()
-let months = [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ]
-let weekDays = [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ]
-document.querySelector('.date').innerHTML = weekDays[now.getDay()]+", "
-                                                          +months[now.getMonth()]+" "
-                                                          +now.getDate()+", "
-                                                          +now.getFullYear()
-
-
+//Hamburger menu
 const menubutton = document.querySelector('.menu');
 const mainnav = document.querySelector('.navigation');
 const exitbutton = document.querySelector('#xbutton');

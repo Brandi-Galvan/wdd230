@@ -103,4 +103,16 @@
         align-self: center;
     }
 
+    .navigation {
+        margin: 25px;
+        width: 60%;
+        left: 240px;
+        font-size: 1em;
+        text-align: center;
+    }
+.hero h2 {
+    justify-items: center;
+    font-size:2.5em;
+}
+
 }
