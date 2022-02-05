@@ -1,5 +1,9 @@
 .banner {
     display: none;
+    background-color: #2f3e46;
+    color: #f5f2e9;
+    padding: .5rem;
+    text-align: center;
 }
 /* Header Styling*/
 body {
