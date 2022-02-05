@@ -191,10 +191,16 @@ hr {
     color:#f5f2e9;
 }
 
+.hero {
+    overflow: hidden;
+    display: grid;
+    grid: 1fr 1fr / 1fr 1fr;
+    padding: 0;
+}
+
 .hero img {
     grid-column: 1/3;
     grid-row: 1/3;
-    z-index: -1;
     width: 100%;
     height: 100%;
 }
@@ -207,7 +213,22 @@ hr {
     color: #f5f2e9;
     width: fit-content;
     height: fit-content;
-    text-align:center;
+    position: absolute;
+    padding: 10px;
+}
+
+.hero button {
+    background-color: #d8c8ab;
+    color: #f5f2e9;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    position: absolute;
+    padding: 10px;
+    margin-bottom: 1.5em;
+    margin-right: 1.5em;
+    font-size: 2em;
+    align-self: end;
+    justify-self: right;
 }
 
 .news p {
