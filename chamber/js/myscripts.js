@@ -2,6 +2,13 @@
 let text = document.lastModified;
 document.getElementById("updatedDate").innerHTML = text;
 
+// Header Date
+const datefieldUK = document.querySelector(".date");
+
+const now = new Date();
+const fulldateUK = new Intl.DateTimeFormat("en-UK", {
+	dateStyle: "full"}).format(now);
+
 //Hamburger menu
 const menubutton = document.querySelector('.menu');
 const mainnav = document.querySelector('.navigation');

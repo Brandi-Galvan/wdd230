@@ -175,9 +175,10 @@ main section {
     padding: 10px;
     margin-bottom: 1.5em;
     margin-right: 1.5em;
-    font-size: 2em;
+    font-size: 3em;
     align-self: end;
     justify-self: right;
+    border-radius: 10px;
 }
 
 /* News Section Styling */
@@ -190,9 +191,14 @@ main section {
     display: grid;
     grid: 1fr 1fr / 1fr;
     grid-row-gap: 2px;
+    text-align: center;
 }
 
-.spotlight p {
+.spotlight a {
+    cursor: pointer;
+}
+
+.spotlight div {
     border: 1.5px solid #f5f2e9;
 }
 
@@ -219,14 +225,14 @@ main section {
 /* Join Section Styling */
 .join {
     display: none;
-    text-align:center;
 }
 
 .joinButton {
     background-color: #2f3e46;
     color: #f5f2e9;
     padding: 10px;
-    font-size: 1.5em;
+    font-size: 1em;
+    border-radius: 10px;
 }
 
 /* Other Styling */
