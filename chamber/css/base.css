@@ -152,7 +152,7 @@ main section {
     padding: 0;
 }
 
-.hero img {
+.hero picture {
     grid-column: 1/3;
     grid-row: 1/3;
     width: 100%;

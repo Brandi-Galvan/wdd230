@@ -20,8 +20,9 @@
 
 <body>
     <div class="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+<!--HEADER-->
     <header>
-        <img src="../lesson3/images/thegilbertchamber-logo.png" alt="Gilbert CC logo" class="gilbert-cc-logo">
+        <img src="images/thegilbertchamber-logo.webp" alt="Gilbert CC logo" class="gilbert-cc-logo">
         <h1>GILBERT<br>
             <span id="chamberofcommerce">CHAMBER OF COMMERCE</span><br>
             <span class="header-sub"><em>Meeting all of Gilbert, Arizona's needs</em></span>
@@ -34,6 +35,7 @@
                 <img src="../chamber/images/instagram2.png" alt="Instagram Icon" class="icon">
             </a>
         </div>
+<!--NAVIGATION-->
 <nav>
     <button class="menu">
         <span id="ham" class="toggle-btn"> &#9776; </span>
@@ -51,29 +53,54 @@
         Saturday, February 5, 2022
     </div>
 </header>
+<!--MAIN SECTION-->
 <main>
+<!--HERO SECTION-->
    <section class="hero">
        <h2>Welcome to Downtown Gilbert</h2>
-       <img src="images/downtown-Gilbert.JPG" alt="Image of Downtown Gilbert and famous water tower">
+<!-- Gilbert CC Original Hero **CHANGE NEXT WEEK**
+       <picture>
+            <source media="(max-width: 33.9em)" srcset="images/downtownGilbert200.jpg">
+            <source media="(max-width: 829px)" srcset="images/downtownGilbert500.jpg">
+            <source media="(max-width: 1400px" srcset="images/downtownGilbert800.jpg">
+            <img src="images/downtown-Gilbert.JPG" alt="Image of Downtown Gilbert and famous water tower">
+        </picture>
+-->        
+        <picture>
+            <source media="(max-width: 33.9em)" srcset="images/wdd230small.jpg">
+            <source media="(max-width: 829px)" srcset="images/wdd230medium.jpg">
+            <source media="(max-width: 1400px)" srcset="images/wdd230large.jpg">
+            <img src="images/wdd230orig.jpg">
+        </picture>
        <button type="button" class="heroButton">Join Us!</button>
     </section>
+
+<!--EVENT SECTION-->
    <section class="event">
        <h2>Event</h2>
        <h3><em>UPCOMING MEET AND GREET</em></h3>
        <img src="images/meetandgreet.png" alt="clipart of meet and greet signs" width=200>
        <p>Our quarterly meet and greet is this coming <strong>Wednesday at the Water Tower</strong> in Downtown Gilbert at 7pm. <br><br>Join us in giving the newest members of our chamber a warm welcome. <br>See you there!</p>
    </section>
+
+<!--WEATHER SECTION-->
    <section class="weather">
        <h2>Weather</h2>
        <h3>Today's Weather in Gilbert</h3>
-       <img src="images/weatherSun.png" alt="clipart of sun and clouds" height="100">
-       <p>64&deg; - Mostly Sunny<br> H: 66&deg; L: 33&deg;</p>
+       <img src="images/sun.webp" alt="clipart of sun and clouds" height="100">
+       <h3><span id="temperature"> 38 </span>&#176; and Cloudy</h3>
+       <p>Wind Chill: <span id="windchill"></span></p>
+       <p>Wind Speed: <span id="windspeed"> 10 </span>mph</p>
    </section>
+
+   <!--JOIN SECTION-->
    <section class="join">
        <h2>Join</h2>
        <p>Discover how to join the Gilbert Chamber of Commerce and how it will greatly benefir your organization!</p>
        <button type="button" class="joinButton">Learn More</button>
    </section>
+
+   <!--NEWS SECTION-->
    <section class="news">
        <h2>Current News</h2>
        <p>We'd like to welcome our newest Chamber Members:</p>
@@ -85,6 +112,8 @@
        </ul>
        <p>We are excited to get to know you all and introduce our amazing community to you. <br><br><strong>Meet the newest members at our Meet and Greet at the Water Tower this Wednesday at 7pm!</strong></p>
    </section>
+
+   <!--SPOTLIGHT SECTION-->
    <section class="spotlight">
     <div>
         <h2>SHEIN</h2>
@@ -103,10 +132,12 @@
     </div>
    </section>
 </main>
+
+<!--FOOTER-->
 <footer>
   <div class="commerceFooter">
     <section class="gilChamber">
-        <img src="../lesson3/images/thegilbertchamber-logo.png" alt="Gilbert Chamber of Commerce logo" class="logo" height="80">
+        <img src="images/thegilbertchamber-logo.webp" alt="Gilbert Chamber of Commerce logo" class="logo" height="80">
         <h2>Gilbert Chamber of Commerce</h2>
         <p>55 E Civic Center Dr Gilbert, AZ 85296</p>
     </section>
@@ -125,5 +156,6 @@
 <div class="lastUpdated">Last Updated <span id="updatedDate"></span></div>
 </footer>
 <script src="../chamber/js/myscripts.js"></script>
+<script src="js/windchill.js"></script>
 </body>
 </html>

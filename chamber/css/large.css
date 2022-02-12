@@ -117,4 +117,42 @@ main {
 	text-align: center;
 }
 
+/* Footer Styling */
+.commerceFooter {
+	display: grid;
+	grid: 1fr / 1fr 1fr;
+	align-items: center;
+}
+
+.gilChamber {
+	display: grid;
+	grid: 1fr 1fr / 1fr 2fr;
+	text-align: left;
+}
+
+.gilChamber p {
+	padding-left: 10px;
+	line-height: 20px;
+}
+
+.gilChamber h2 {
+	margin-block-end: 0;
+	padding-left: 10px;
+	line-height: 20px;
+}
+
+
+.gilChamber img {
+	grid-column: 1/2;
+	grid-row: 1/3;
+	justify-self: end;
+	align-self: center;
+	max-height: 85px;
+}
+
+.contact {
+	align-self: center;
+}
+
+
 }
