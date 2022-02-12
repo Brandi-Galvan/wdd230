@@ -1,5 +1,5 @@
 @media only screen and (min-width: 830px) {
-	/*HEader Styling */
+	/*Header Styling */
 	header{
         font-size: 1.2rem;
 		grid: 1fr / 1fr 1fr 2fr 1fr;
@@ -32,31 +32,31 @@
         font-size: 1em;
     }
 
-	/* Body Styling */
-	main {
-		grid: repeat(3, 1fr) / 1fr 2fr 1fr;
-	}
-
 /* Navigation Styling */
-    .navigation {
-		display: flex;
-		position: relative;
-		justify-content: flex-end;
-	}
+.navigation {
+	display: flex;
+	position: relative;
+	justify-content: flex-end;
+}
 
-	.navigation li {
-		display: block;
-		flex: 1 1 auto;
-	}
+.navigation li {
+	display: block;
+	flex: 1 1 auto;
+}
 
-	.navigation a {
-		text-align: center;
-        border: none;
-	}
+.navigation a {
+	text-align: center;
+	border: none;
+}
 
-    .menu {
-        display: none;
-    }
+.menu {
+	display: none;
+}
+
+/* Body Styling */
+main {
+	grid: repeat(3, 1fr) / 1fr 2fr 1fr;
+}
 
 /*Hero Styling */
 .hero {
