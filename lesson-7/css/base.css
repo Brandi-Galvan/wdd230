@@ -1,0 +1,33 @@
+body {
+    font-family: serif;
+    background-color: #f5f2e9;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    justify-items: center;
+}
+
+h1{
+    color: #2f3e46;
+}
+
+picture img {
+    box-shadow: 1px 1px 6px #2f3e46;
+}
+
+picture img.in {
+    animation: img-come-in 1s;
+}
+
+
+
+@keyframes img-come-in {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
