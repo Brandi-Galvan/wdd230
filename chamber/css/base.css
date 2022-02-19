@@ -291,3 +291,23 @@ footer {
     padding: .5em;
     font-size: 20px;
 }
+
+/* Discover Page */
+.discover {
+	display: block;
+    text-align: center;
+    justify-items: center;
+}
+
+.discover p {
+    font-size: 0.75rem;
+}
+
+.discoverPictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 30px;
+    padding-bottom: 30px;
+}
