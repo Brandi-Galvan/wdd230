@@ -311,3 +311,8 @@ footer {
     grid-gap: 30px;
     padding-bottom: 30px;
 }
+
+.discoverPictures img:hover {
+    box-shadow: 0 0 36px 2px #2f3e46;
+    transition: 0.4s;
+}
