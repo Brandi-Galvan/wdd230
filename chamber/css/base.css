@@ -292,7 +292,7 @@ footer {
     font-size: 20px;
 }
 
-/* Discover Page */
+/* DISCOVER PAGE */
 .discover {
 	display: block;
     text-align: center;
@@ -310,6 +310,21 @@ footer {
     align-items: center;
     grid-gap: 30px;
     padding-bottom: 30px;
+}
+
+picture img.in {
+    animation: img-come-in 1s;
+}
+
+@keyframes img-come-in {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 .discoverPictures img:hover {
