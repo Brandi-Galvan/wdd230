@@ -156,5 +156,10 @@ main {
 
 /* Discover Page */
 
+.discoverPictures img:hover {
+    box-shadow: 0 0 17px 5px #2f3e46;
+    transition: 0.4s;
+    border-radius: 20px;
+}
 
 }

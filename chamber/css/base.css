@@ -318,16 +318,11 @@ picture img.in {
 
 @keyframes img-come-in {
     from {
-        transform: scale(0.9);
+        transform: scale(0.7);
         opacity: 0;
     }
     to {
         transform: scale(1);
         opacity: 1;
     }
-}
-
-.discoverPictures img:hover {
-    box-shadow: 0 0 36px 2px #2f3e46;
-    transition: 0.4s;
 }
