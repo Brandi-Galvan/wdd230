@@ -1,26 +1,15 @@
-
-let lastvisit = Number(window.localStorage.getItem('last-visit-date'));
+let lastvisit = Number(window.localStorage.getItem('lastvisit'));
+let thisvisit = Date.now();
 
 if (lastvisit != 0) {
-  let thisvisit = Date.now();
   let FACTOR = 86400000;
   let daysBetween = (thisvisit - lastvisit) / FACTOR;
+  document.querySelector('.lastVisited').textContent = 'It has been ' + daysBetween.toFixed(0) + ' day(s) since your last visit. Welcome back!';
+} 
 
-  if (daysBetween.toFixed(0) != 1) {
-    document.querySelector('#countdown').textContent = 'It has been ' + daysBetween.toFixed(0) + ' days since your last visit.';
-    window.localStorage.setItem('last-visit-date', thisvisit);
-    thisvisit = NULL;
-  } 
-  
-  else {
-    document.querySelector('#countdown').textContent = 'It has been ' + daysBetween.toFixed(0) + ' day since your last visit.';
-    window.localStorage.setItem('last-visit-date', thisvisit);
-    thisvisit = NULL; 
-  }
+else {  
+  window.localStorage.setItem('lastvisit', Date.now());
+  document.querySelector('.lastVisited').textContent = 'Welcome - this is your first visit!';
 }
 
-else {
-  window.localStorage.setItem('last-visit-date', Date.now());
-  document.querySelector('#countdown').textContent = 'This is your first visit! Welcome!';
-
-}
+  window.localStorage.setItem('lastvisit', thisvisit);
