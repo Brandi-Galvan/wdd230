@@ -55,7 +55,75 @@
     </div>
 </header>
 
+<!--MAIN-->
+<main class="joinMain">
+    <h1>Join the Gilbert Chamber</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Business Position <input type="text" name="title" pattern="^[a-zA-Z- ].{7,}$" ></label>
+                <label class="top">Email <input type="email" name="email" placeholder="business.professional@gmail.com" required></label>
+                <label class="top">Phone Number <input type="tel" name="phone" placeholder="1235556789"></label>
+                <label class="top">Business Name* <input type="text" name="business" required></label>
+            </fieldset>
 
+            <fieldset>
+                <legend>Chamber Membership Levels</legend>
+                <label class="sbs"><input type="radio" name="membership" value="nonprofit">Non Profit<span class="cost">Free</span></label>
+                <div class="membershipLevels">
+                    <ul>
+                        <li>Business and categorical listing on our website to include business name, address, and phone number</li>
+                        <li>Special members-only pricing to Chamber events</li>
+                        <li>Subscription to Chamber's weekly e-mail communication</li>
+                        <li>Business referrals to help your business grow</li>
+                        <li>Membership decal for display at your place of business</li>
+                        <li>Chamber's logo for use in your advertising and/or website</li>
+                        <li>Business counseling provided by SCORE/SBDC</li>
+                        <li>Ability to post discounts and job postings on our website</li>
+                        <li>Ability to submit member news and announcements</li>
+                    </ul>
+                </div>
+                <label class="sbs"><input type="radio" name="membership" value="bronze">Bronze Membership<span class="cost">$520</span></label>
+                <div class="membershipLevels">Non Profit benefits, PLUS:
+                    <ul>
+                        <li>Expanded business listing on our website to include website and map links, hours of operation, name of representative, two slideshow photos and up to eight keywords/phrases</li>
+                        <li>Social media links may include Facebook, Twitter, Instagram, LinkedIn and YouTube</li>
+                        <li>Referral team membership (upon availability)</li>
+                        <li>Ribbon cutting or grand opening event upon joining</li>
+                        <li>U.S. Chamber of Commerce membership and discounts</li>
+                        <li>Ability to purchase a multi-business membership</li>
+                        <li>Ability to purchase a second category listing ($50)</li>
+                    </ul>
+                </div>
+                <label class="sbs"><input type="radio" name="membership" value="silver">Silver Membership<span class="cost">$835</span></label>
+                <div class="membershipLevels">Bronze and Non Profit benefits, PLUS:
+                    <ul>
+                        <li>Expanded business listing on website, to inlude logo, three additional slideshow photos and seven keywords/phrases</li>
+                        <li>Business card headshot in representative field</li>
+                        <li>URL link to consumber-based review website</li>
+                        <li>Second category listing on our website</li>
+                        <li>One complimentary set at each Good Government event</li>
+                        <li>Comprehensive membership list sent electronically each year</li>
+                        <li>Placement of business cards in Chamber lobby</li>
+                    </ul>
+                </div>
+                <label class="sbs"><input type="radio" name="membership" value="gold">Gold Membership<span class="cost">$4,600</span></label>
+                <div class="membershipLevels">Silver, Bronze, and Non Profit benefits, PLUS:
+                    <ul>
+                        <li>Logo displayed in the Chamber's weekly email communication</li>
+                        <li>Twenty-five word description on our website</li>
+                        <li>One rotating banner advertisement on our website</li>
+                        <li>One rotating advertisement on the Chamber lobby monitor</li>
+                    </ul>
+                </div>
+                <label class="top">Business Description <br><textarea name="bizDescription"></textarea></label>
+            </fieldset>
+            <div id="time" hidden></div>
+            <input type="submit" value="Become a GCC Member" class="submitBtn">
+        </form>
+    </main>
 
 
 <!--FOOTER-->
