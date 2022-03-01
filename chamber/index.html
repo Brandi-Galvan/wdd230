@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <div class="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+    <span id="eventbanner"></span>
 <!--HEADER-->
     <header>
         <img src="images/thegilbertchamber-logo.webp" alt="Gilbert CC logo" class="gilbert-cc-logo">
@@ -58,19 +58,11 @@
 <!--HERO SECTION-->
    <section class="hero">
        <h2>Welcome to Downtown Gilbert</h2>
-<!-- Gilbert CC Original Hero **CHANGE NEXT WEEK**
        <picture>
             <source media="(max-width: 33.9em)" srcset="images/downtownGilbert200.jpg">
             <source media="(max-width: 829px)" srcset="images/downtownGilbert500.jpg">
             <source media="(max-width: 1400px" srcset="images/downtownGilbert800.jpg">
             <img src="images/downtown-Gilbert.JPG" alt="Image of Downtown Gilbert and famous water tower">
-        </picture>
--->        
-        <picture>
-            <source media="(max-width: 33.9em)" srcset="images/wdd230small.jpg">
-            <source media="(max-width: 829px)" srcset="images/wdd230medium.jpg">
-            <source media="(max-width: 1400px)" srcset="images/wdd230large.jpg">
-            <img src="images/wdd230orig.jpg" alt="original wdd230 image from lesson">
         </picture>
        <button type="button" class="heroButton">Join Us!</button>
     </section>
@@ -156,6 +148,7 @@
 <div class="lastUpdated">Last Updated <span id="updatedDate"></span></div>
 </footer>
 <script src="../chamber/js/myscripts.js"></script>
-<script src="js/windchill.js"></script>
+<script src="./js/windchill.js"></script>
+<script src="./js/banner.js"></script>
 </body>
 </html>
