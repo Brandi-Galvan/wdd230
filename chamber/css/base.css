@@ -336,13 +336,13 @@ picture img.in {
 /* form section */
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid #445ba9;
+    border: 1px solid #2f3e46;
     border-radius: 10px;
     padding: .5rem 2%;
 }
 
 form legend {
-    color: #445ba9;
+    color: #2f3e46;
     margin: 0 1rem;
     padding: 0 .5rem;
 
@@ -351,7 +351,7 @@ form legend {
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: #9c2c13;
+    color: #2f3e46;
     font-size: .8rem;
 }
 
@@ -371,13 +371,18 @@ form label.top input, form label.top select {
 form label.sbs {
     display: block;
     padding: .75rem 0;
-    color: #555;
+    color: #2f3e46;
+    font-weight: bold;
+}
+
+form label.sbs:hover {
+    cursor: pointer;
 }
 
 form input.submitBtn {
     border: none;
-    background-color: #9c2c13;
-    color: white;
+    background-color: #d8c8ab;
+    color: #2f3e46;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
@@ -385,10 +390,44 @@ form input.submitBtn {
     max-width: 20rem;
 }
 
+form input.submitBtn:hover {
+    cursor: pointer;
+    background-color: #a6c09b;
+}
+
 form label.top input:required {
-    border-left: red solid 6px;
+    border-left: #8e1313 solid 6px;
 }
 
 form label.top input:required:valid {
-    border-left: green solid 6px;
+    border-left: #a6c09b solid 6px;
+}
+
+.npCost {
+    background-color: #a6c09b;
+    padding: 0.25rem 1rem;
+    margin-left: 0.8rem;
+    border-radius: 8px;
+}
+
+.bronzeCost {
+    background-color: #CD7F32;
+    color: white;
+    padding: 0.25rem 1rem;
+    margin-left: 0.8rem;
+    border-radius: 8px;
+}
+
+.silverCost {
+    background-color: #C0C0C0;
+    padding: 0.25rem 1rem;
+    margin-left: 0.8rem;
+    border-radius: 8px;
+}
+
+.goldCost {
+    background-color: #FFD700;
+    padding: 0.25rem 1rem;
+    margin-left: 0.8rem;
+    border-radius: 8px;
 }
