@@ -431,3 +431,29 @@ form label.top input:required:valid {
     margin-left: 0.8rem;
     border-radius: 8px;
 }
+
+/* thank you page */
+.thankyouMain {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.thankyouMain h1 {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1;
+}
+
+.thankyouMain img {
+    max-width: 100%;
+}
+
+.thankyouMain div {
+    padding: 0rem 8rem 0rem 8rem;
+}
+
+.thankyouMain p {
+    text-align: center;
+    font-size: 1rem;
+}

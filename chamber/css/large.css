@@ -162,4 +162,25 @@ main {
     border-radius: 20px;
 }
 
+.thankyouMain {
+	display: grid;
+	grid: 1fr / 1fr 1fr;
+}
+
+.thankyouMain div {
+	grid-row: 1/3;
+	justify-self:end;
+}
+
+.thankyouMain img {
+	max-height: 350px;
+}
+
+.thankyouMain p {
+	grid-column: 2/3;
+}
+
+.thankyouMain h1 {
+	align-self: end;
+}
 }
