@@ -520,10 +520,10 @@ form label.top input:required:valid {
   
   #view button {
     text-align: center;
-    background-color: rgba(239, 248, 244, 0.473);
+    background-color: #f5f2e9;
     cursor: pointer;
-    border: 5px solid var(--primary-color);
-    border-radius: 5px;
+    border: 2px solid #2f3e46;
+    border-radius: 10px;
     margin: 10px;
   }
   
@@ -552,9 +552,9 @@ form label.top input:required:valid {
   }
   
   .member-cards section {
-    background-color: #f5f2e9;
+    background-color: rgba(216,200,171,0.8);
     color: #2F3E46;
-    border: 3px inset #a6c09b;
+    border: 5px groove rgba(166, 192, 155, 0.75);
     box-shadow: 4px 4px 6px #2f3e46;
     border-radius: 10px;
     padding: 10px;
