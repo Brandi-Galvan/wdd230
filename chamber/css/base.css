@@ -331,8 +331,15 @@ picture img.in {
 /* JOIN PAGE */
 
 .joinMain {
-    display: block;
-    margin: auto 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f2e9;
+    padding: 15px;
+    min-width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0px;
 }
 
 .joinMain h1 {
@@ -342,7 +349,10 @@ picture img.in {
 /* form section */
 
 form {
-    margin: auto 29.5rem;
+    align-self: center;
+    text-align: left;
+    min-width: 18rem;
+    max-width: 90%;
 }
 
 form fieldset {
@@ -358,7 +368,6 @@ form legend {
     color: #2f3e46;
     margin: 0 1rem;
     padding: 0 .5rem;
-
 }
 
 form label.top, form div {
@@ -368,7 +377,7 @@ form label.top, form div {
     font-size: .8rem;
 }
 
-form label.top input, form label.top select {
+form label.top input, form label.top select, textarea {
     -webkit-appearance:none;
     display: block;
     font-size: 1rem;
@@ -381,9 +390,12 @@ form label.top input, form label.top select {
     background-color: rgba(0,0,0,0.1)
 }
 
+textarea {
+    overflow: auto;
+}
+
 form label.sbs {
     display: block;
-    padding: .75rem 0 0 0;
     color: #2f3e46;
     font-weight: bold;
 }
@@ -401,6 +413,7 @@ form input.submitBtn {
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
+    transition-duration: .5s;
 }
 
 form input.submitBtn:hover {
@@ -414,10 +427,6 @@ form label.top input:required {
 
 form label.top input:required:valid {
     border-left: #a6c09b solid 6px;
-}
-
-.membershipLevels {
-    padding: 0;
 }
 
 .npCost {

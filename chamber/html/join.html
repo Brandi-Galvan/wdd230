@@ -63,17 +63,22 @@
                 <legend>Applicant Information</legend>
                 <label class="top">First Name* <input type="text" name="fname" required></label>
                 <label class="top">Last Name* <input type="text" name="lname" required></label>
-                <label class="top">Business Position <input type="text" name="title" pattern="^[a-zA-Z- ].{7,}$" ></label>
                 <label class="top">Email <input type="email" name="email" placeholder="business.professional@gmail.com" required></label>
                 <label class="top">Phone Number <input type="tel" name="phone" placeholder="1235556789"></label>
-                <label class="top">Business Name* <input type="text" name="business" required></label>
             </fieldset>
 
             <fieldset>
+                <legend>Business Information</legend>
+                <label class="top">Business Name* <input type="text" name="business" required></label>
+                <label class="top">Business Position <input type="text" name="title" pattern="^[a-zA-Z- ].{7,}$" ></label>
+                <label class="top">Business Description <br><textarea name="bizDescription"></textarea></label>
+            </fieldset>
+            <fieldset>
                 <legend>Chamber Membership Levels</legend>
+                <div>
                 <label class="sbs"><input type="radio" name="membership" value="nonprofit">Non Profit<span class="npCost">FREE</span></label>
                 <div class="membershipLevels">
-                    <ul>
+                    <ul class="levelDescription">
                         <li>Business and categorical listing on our website to include business name, address, and phone number</li>
                         <li>Special members-only pricing to Chamber events</li>
                         <li>Subscription to Chamber's weekly e-mail communication</li>
@@ -87,7 +92,7 @@
                 </div>
                 <label class="sbs"><input type="radio" name="membership" value="bronze">Bronze Membership<span class="bronzeCost">$520</span></label>
                 <div class="membershipLevels">Non Profit benefits, PLUS:
-                    <ul>
+                    <ul class="levelDescription">
                         <li>Expanded business listing on our website to include website and map links, hours of operation, name of representative, two slideshow photos and up to eight keywords/phrases</li>
                         <li>Social media links may include Facebook, Twitter, Instagram, LinkedIn and YouTube</li>
                         <li>Referral team membership (upon availability)</li>
@@ -99,7 +104,7 @@
                 </div>
                 <label class="sbs"><input type="radio" name="membership" value="silver">Silver Membership<span class="silverCost">$835</span></label>
                 <div class="membershipLevels">Bronze and Non Profit benefits, PLUS:
-                    <ul>
+                    <ul class="levelDescription">
                         <li>Expanded business listing on website, to inlude logo, three additional slideshow photos and seven keywords/phrases</li>
                         <li>Business card headshot in representative field</li>
                         <li>URL link to consumber-based review website</li>
@@ -111,14 +116,14 @@
                 </div>
                 <label class="sbs"><input type="radio" name="membership" value="gold">Gold Membership<span class="goldCost">$4,600</span></label>
                 <div class="membershipLevels">Silver, Bronze, and Non Profit benefits, PLUS:
-                    <ul>
+                    <ul class="levelDescription">
                         <li>Logo displayed in the Chamber's weekly email communication</li>
                         <li>Twenty-five word description on our website</li>
                         <li>One rotating banner advertisement on our website</li>
                         <li>One rotating advertisement on the Chamber lobby monitor</li>
                     </ul>
                 </div>
-                <label class="top">Business Description <br><textarea name="bizDescription"></textarea></label>
+            </div>
             </fieldset>
             <div id="time" hidden></div>
             <input type="hidden" id="joinDate" name="joinDate" value="">

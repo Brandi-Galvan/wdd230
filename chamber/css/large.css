@@ -162,6 +162,25 @@ main {
     border-radius: 20px;
 }
 
+/* Join Page */
+
+form fieldset {
+	max-width: 50rem;
+}
+
+.membershipLevels {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.joinMain ul {
+    grid-column: 2 / 3;
+}
+
+form input.submitBtn {
+    max-width: 50rem;
+}
+
 .thankyouMain {
 	display: grid;
 	grid: 1fr / 1fr 1fr;
