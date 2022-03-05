@@ -501,12 +501,6 @@ form label.top input:required:valid {
 
 /* DIRECTORY PAGE */
 
-#directory {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: .5rem;
-  }
-  
   #directory-title {
     text-align: center;
     font-size: 16pt;
@@ -546,7 +540,7 @@ form label.top input:required:valid {
   
   .member-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 20px;
     padding: 2em;
   }
