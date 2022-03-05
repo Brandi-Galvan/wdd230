@@ -32,3 +32,20 @@ else {
         lazyLoad(img)
     })
 }
+
+// Days since last visit
+const visitDisplay = window.localStorage.getItem('last-visit');
+if(visitDisplay === undefined) {
+    visitDisplay = new Date(Data.now());
+}
+const lastVisit = Date.parse(visitDisplay);
+const FACTOR = 1000 * 60 * 60 * 24;
+
+
+let daysbetween = Date.now() - lastVisit;
+let numberOfDays = daysbetween / FACTOR;
+
+window.localStorage.setItem('last-visit', new Date(Date.now()));
+
+const dayLastVisit = Math.floor(numberOfDays);
+document.getElementById('last-visit').textContent = dayLastVisit;
