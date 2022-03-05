@@ -5,7 +5,7 @@
         "address": "428 S Gilbert Rd #106-7, Gilbert, AZ 85296",
         "phone": "(480) 250-3873",
         "website": "https://www.armstrongmassage.com/",
-        "logo": "images/armstrong_massage_rehab.png"
+        "logo": "./images/armstrong_massage_rehab.png"
       },
       {
         "name": "Angel Adult Day Center",
@@ -25,7 +25,7 @@
         "name": "Board & Brush Creative Studio",
         "address": "538 S Gilbert Rd, Gilbert, AZ 85296",
         "phone": "(480) 486-6151",
-        "website": "https://boardandbrush.com/gilbert/?utm_source=google&utm_medium=local&utm_campaign=localmaps&utm_content=27",
+        "website": "https://boardandbrush.com/",
         "logo": "images/board_and_brush.jpg"
       },
       {
@@ -81,7 +81,7 @@
         "name": "Culinary Dropout",
         "address": "383 N Gilbert Rd, Gilbert, AZ 85234",
         "phone": "(480) 418-3980",
-        "website": "https://www.culinarydropout.com/locations/gilbert-az/?utm_source=Google&utm_medium=Organic&utm_campaign=Maps",
+        "website": "https://www.culinarydropout.com/",
         "logo": "images/culinary_dropout_gilbert.jpg"
       }
     ]

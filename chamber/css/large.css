@@ -54,7 +54,7 @@
 }
 
 /* Body Styling */
-main {
+.indexMain {
 	grid: repeat(3, 1fr) / 1fr 2fr 1fr;
 }
 
@@ -209,4 +209,9 @@ form input.submitBtn {
 .thankyouMain h1 {
 	align-self: end;
 }
+
+/* DIRECTORY PAGE */
+
+
+
 }

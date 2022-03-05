@@ -131,7 +131,7 @@ button {
 }
 
 /* Body Styling */
-main {
+.indexMain {
     display: grid;
     grid: repeat(5, 1fr)/ 1fr;
     grid-row-gap: 10px;
@@ -140,7 +140,7 @@ main {
     font-size: .8em;
 }
 
-main section {
+.indexMain section {
     background-color: #d8c8ab;
     padding: .5em;
 }
@@ -485,3 +485,75 @@ form label.top input:required:valid {
     text-align: center;
     font-size: 1rem;
 }
+
+/* DIRECTORY PAGE */
+
+#directory {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: .5rem;
+  }
+  
+  #directory-title {
+    text-align: center;
+    font-size: 16pt;
+    color: #2F3E46;
+    margin-bottom: 10px;
+  }
+  
+  #view {
+    text-align: center;
+  }
+  
+  #view button {
+    text-align: center;
+    background-color: rgba(239, 248, 244, 0.473);
+    cursor: pointer;
+    border: 5px solid var(--primary-color);
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  svg {
+    width: 50px;
+    height: 50px;
+    color: #2f3e46;
+    margin: .5em;
+    align-items: center;
+  }
+  
+  #view button:hover {
+    border: 4px solid #2F3E46;
+    transition-duration: .5s;
+  }
+  
+  #view button:focus {
+    border: 4px solid #2F3E46;
+  }
+  
+  .member-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 2em;
+  }
+  
+  .member-cards section {
+    background-color: #f5f2e9;
+    color: #2F3E46;
+    border: 3px inset #a6c09b;
+    box-shadow: 4px 4px 6px #2f3e46;
+    border-radius: 10px;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .member-list {
+    display: grid;
+  }
+  
+  .member-list table {
+    padding: 10px;
+  }
+  
