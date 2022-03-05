@@ -34,17 +34,3 @@
     padding: 1rem;
     margin-bottom: 3rem;
   }
-
-/* Medium Viewport */
-  @media only screen and (min-width: 34em) {
-    .cards {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-/* Large Viewport */
-@media only screen and (min-width: 830px) {
-    .cards {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
