@@ -46,7 +46,7 @@ function displayMembers(member) {
     
     //website
     let website = document.createElement("p");
-    website.textContent = `${member.website}`;
+    website.innerHTML = `<a href="https://www.${member.website}">${member.website}</a>`;
     card.appendChild(website);
 
     // img
@@ -84,7 +84,7 @@ function displayMembersList(memberList) {
 
     //td website
     let website = document.createElement("td");
-    website.textContent = `${memberList.website}`;
+    website.innerHTML = `<a href="https://www.${memberList.website}">${memberList.website}</a>`;
     mlist.appendChild(website);
 
     memlist.appendChild(mlist);

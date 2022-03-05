@@ -500,7 +500,9 @@ form label.top input:required:valid {
 }
 
 /* DIRECTORY PAGE */
-
+.directory {
+    padding: 5rem;
+}
   #directory-title {
     text-align: center;
     font-size: 16pt;
@@ -544,6 +546,10 @@ form label.top input:required:valid {
     gap: 20px;
     padding: 2em;
   }
+
+  .member-cards img {
+    width: 50%;
+  }
   
   .member-cards section {
     background-color: rgba(216,200,171,0.8);
@@ -562,5 +568,15 @@ form label.top input:required:valid {
   
   .member-list table {
     padding: 10px;
+  }
+  
+  table:nth-child(odd) {
+    background-color: #d8c8ab;
+    color: #2f3e46;
+  }
+  
+  table:nth-child(even) {
+    background-color: #f5f2e9;
+    color: #2F3E46
   }
   
