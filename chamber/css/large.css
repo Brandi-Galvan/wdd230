@@ -155,11 +155,18 @@ main {
 }
 
 /* Discover Page */
+.discoverPictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 30px;
+    padding-bottom: 30px;
+}
 
-.discoverPictures img:hover {
-    box-shadow: 0 0 17px 5px #2f3e46;
-    transition: 0.4s;
-    border-radius: 20px;
+.discover p {
+	grid-column: 2 / 3;
+    font-size: 1rem;
 }
 
 /* Join Page */

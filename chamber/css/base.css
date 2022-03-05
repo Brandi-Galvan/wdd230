@@ -304,13 +304,10 @@ footer {
     font-size: 0.75rem;
 }
 
-.discoverPictures {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
-    align-items: center;
-    grid-gap: 30px;
-    padding-bottom: 30px;
+.discoverPictures img:hover {
+    box-shadow: 0 0 17px 5px #2f3e46;
+    transition: 0.4s;
+    border-radius: 20px;
 }
 
 picture img.in {
@@ -326,6 +323,11 @@ picture img.in {
         transform: scale(1);
         opacity: 1;
     }
+}
+
+.lastVisit {
+    text-align: center;
+    color:#2F3E46;
 }
 
 /* JOIN PAGE */
