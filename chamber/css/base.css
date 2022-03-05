@@ -191,6 +191,7 @@ button {
 .hero button:hover{
     background-color:#2F3E46;
     transition-duration: .5s;
+    cursor: pointer;
 }
 
 /* News Section Styling */
@@ -259,6 +260,7 @@ button {
     background-color: #a6c09b;
     color: #2f3e46;
     transition-duration: .5s;
+    cursor: pointer;
 }
 
 /* Other Styling */
