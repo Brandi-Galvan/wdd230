@@ -500,9 +500,7 @@ form label.top input:required:valid {
 }
 
 /* DIRECTORY PAGE */
-.directory {
-    padding: 5rem;
-}
+
   #directory-title {
     text-align: center;
     font-size: 16pt;
@@ -562,12 +560,18 @@ form label.top input:required:valid {
     text-align: center;
   }
   
-  .member-list {
-    display: grid;
-  }
-  
   .member-list table {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-radius: 15px;
+    border: 2px solid #fff;
     padding: 10px;
+    margin: 0.2rem 1%;
+  }
+
+  td:nth-child(1) {
+    font-weight: 800;
+    font-size: 1.2rem;
   }
   
   table:nth-child(odd) {

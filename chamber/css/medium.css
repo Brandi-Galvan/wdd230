@@ -136,6 +136,12 @@
 }
 
 /* DIERCTORY PAGE */
+.directory {
+    padding: 5rem;
+}
 
+.member-list {
+    display: table;
+}
 
 }
