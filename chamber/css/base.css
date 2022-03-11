@@ -501,6 +501,10 @@ form label.top input:required:valid {
 
 /* DIRECTORY PAGE */
 
+.directory {
+    overflow-wrap: break-word;
+}
+
   #directory-title {
     text-align: center;
     font-size: 16pt;

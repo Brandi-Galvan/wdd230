@@ -236,7 +236,6 @@ form input.submitBtn {
 
 .member-list table {
 	grid-template-columns: 30% 20% 20% 30%;
-    grid-template-rows: repeat(2, 1fr);
 	border-radius: 5px;
 }
 
