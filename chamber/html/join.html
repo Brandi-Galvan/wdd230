@@ -59,7 +59,8 @@
 <main class="joinMain">
     <h1>Join the Gilbert Chamber</h1>
         <form method="get" action="thanks.html">
-            <fieldset>
+            <div class="memGrid">
+            <fieldset id="appInfo">
                 <legend>Applicant Information</legend>
                 <label class="top">First Name* <input type="text" name="fname" required></label>
                 <label class="top">Last Name* <input type="text" name="lname" required></label>
@@ -67,15 +68,14 @@
                 <label class="top">Phone Number <input type="tel" name="phone" placeholder="1235556789"></label>
             </fieldset>
 
-            <fieldset>
+            <fieldset id="busInfo">
                 <legend>Business Information</legend>
                 <label class="top">Business Name* <input type="text" name="business" required></label>
                 <label class="top">Business Position <input type="text" name="title" pattern="^[a-zA-Z- ].{7,}$" ></label>
                 <label class="top">Business Description <br><textarea name="bizDescription"></textarea></label>
             </fieldset>
-            <fieldset>
+            <fieldset id="memInfo">
                 <legend>Chamber Membership Levels</legend>
-                <div>
                 <label class="sbs"><input type="radio" name="membership" value="nonprofit">Non Profit<span class="npCost">FREE</span></label>
                 <div class="membershipLevels">
                     <ul class="levelDescription">
@@ -123,8 +123,8 @@
                         <li>One rotating advertisement on the Chamber lobby monitor</li>
                     </ul>
                 </div>
-            </div>
             </fieldset>
+            </div>
             <div id="time" hidden></div>
             <input type="hidden" id="joinDate" name="joinDate" value="">
             <input type="submit" value="Become a GCC Member" class="submitBtn">
