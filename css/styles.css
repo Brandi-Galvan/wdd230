@@ -13,7 +13,7 @@ body {
     grid-template-columns: 0.3fr 0.7fr;
     grid-gap: 1em;
     align-items: center;
-    color: white;
+    color: #2F3E46;
     background-color: #90B082;
     padding: 10px;
     max-width: 100%;
