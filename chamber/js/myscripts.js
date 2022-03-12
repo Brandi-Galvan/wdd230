@@ -29,11 +29,3 @@ window.onresize = () => {
         ham.classList.remove("hidden");
     }
 };
-
-// Banner shows on Mondays and Tuesdays only
-datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
-console.log(d.getDay());
-if(d.getDay() === 2 || d.getDay() === 1) {
-	const banner = document.querySelector("#banner");
-	banner.style.display = "block";
-}

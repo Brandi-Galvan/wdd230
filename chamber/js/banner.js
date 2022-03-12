@@ -1,3 +1,4 @@
+// Banner shows on Mondays and Tuesdays only
 const now = new Date();
 const dayofweek = now.getDay();
 
