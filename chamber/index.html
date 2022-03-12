@@ -57,27 +57,29 @@
 <main class="indexMain">
 <!--HERO SECTION-->
    <section class="hero">
-       <h2>Welcome to Downtown Gilbert</h2>
-       <picture>
-            <source media="(max-width: 33.9em)" srcset="images/downtownGilbert200.jpg">
-            <source media="(max-width: 829px)" srcset="images/downtownGilbert500.jpg">
-            <source media="(max-width: 1400px)" srcset="images/downtownGilbert800.jpg">
-            <img src="images/downtown-Gilbert.JPG" alt="Image of Downtown Gilbert and famous water tower">
-        </picture>
-       <a href="./html/join.html"><div class="heroButton">Join Us!</div></a>
+    <picture>
+        <source media="(max-width: 33.9em)" srcset="images/downtownGilbert200.jpg">
+        <source media="(max-width: 829px)" srcset="images/downtownGilbert500.jpg">
+        <source media="(max-width: 1400px)" srcset="images/downtownGilbert800.jpg">
+        <img src="images/downtown-Gilbert.JPG" alt="Image of Downtown Gilbert and famous water tower">
+    </picture>
+       <h2 class="heroHeading">Welcome to Downtown Gilbert</h2>
+    <form id="indexForm" action="./html/join.html">
+        <button class="heroButton" type="submit">Join GCC</button>
+    </form>
     </section>
 
 <!--EVENT SECTION-->
    <section class="event">
-       <h2>Event</h2>
-       <h3><em>UPCOMING MEET AND GREET</em></h3>
-       <img src="images/meetandgreet.png" alt="clipart of meet and greet signs" width=200>
-       <p>Our quarterly meet and greet is this coming <strong>Wednesday at the Water Tower</strong> in Downtown Gilbert at 7pm. <br><br>Join us in giving the newest members of our chamber a warm welcome. <br>See you there!</p>
+       <h2>EVENTS</h2>
+       <h3><em>Upcoming Meet and Greet</em></h3>
+       <img src="images/meetandgreet.png" alt="clipart of meet and greet signs">
+       <p>Our quarterly meet and greet is this coming <strong>Wednesday at the Water Tower</strong> in Downtown Gilbert at 7pm.</p>
    </section>
 
 <!--WEATHER SECTION-->
    <section class="weather">
-       <h2>Weather</h2>
+       <h2>WEATHER</h2>
        <img src="" alt="" id="weathericon">
        <h3><span id="current-temp"></span> &#176;F</h3>
        <p><span id="desc"></span></p>
@@ -87,14 +89,14 @@
 
    <!--JOIN SECTION-->
    <section class="join">
-       <h2>Join GCC</h2>
+       <h2>JOIN GCC</h2>
        <a href="./html/join.html"><div class="joinButton">Learn More</div></a>
        <p>Discover how to join the Gilbert Chamber of Commerce and how it will greatly benefir your organization!</p>
    </section>
 
    <!--NEWS SECTION-->
    <section class="news">
-       <h2>Current News</h2>
+       <h2>CURRENT NEWS</h2>
        <p>We'd like to welcome our newest Chamber Members:</p>
        <ul>
            <li>Brandi Galvan</li>
@@ -107,17 +109,17 @@
 
    <!--SPOTLIGHT SECTION-->
    <section class="spotlight">
-    <div>
+    <div class="spotDiv">
         <h2>SHEIN</h2>
         <p>Shop New Arrivals<br>1,000+ New Items Launch Every Day</p>
         <p><a href="#">Shop Now</a></p>
     </div>
-    <div>
+    <div class="spotDiv">
        <h2>HubSpot Academy</h2>
        <p>HubSpot's #1 source of new business is organic traffic. Learn how they do it.</p>
        <p><a href="#">Free SEO Training Course</a></p>
     </div>
-    <div id="spotlight3">
+    <div id="spotlight3" class="spotDiv">
        <h2>Luv Bridal</h2>
        <p>PHOENIX, you're so close to finding 'The One'! Our bridal collections are gowns you can move in, dance in, and most of all - feel like YOURSELF in. With no boning or corsetry, our luxury wedding dresses are made from the finest lace, crepes and silk.</p>
        <p><a href="#">Book your FREE appointment NOW!</a></p>
