@@ -6,7 +6,7 @@
     <meta name="author" content="Brandi Glover">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Gilbert Chamber of Commerce Site by Brandi Glover for WDD230 course">
-    <link rel="shortcut icon" href="/images/thegilbertchamber-favicon.ico"><link rel="shortcut icon" href="/images/thegilbertchamber-favicon.ico">
+    <link rel="shortcut icon" href="../images/thegilbertchamber-favicon.ico">
     <title>Home | The Gilbert Chamber of Commerce</title>
     <link rel="stylesheet" href="../chamber/css/base.css">
     <link rel="stylesheet" href="../chamber/css/medium.css">
@@ -61,10 +61,10 @@
        <picture>
             <source media="(max-width: 33.9em)" srcset="images/downtownGilbert200.jpg">
             <source media="(max-width: 829px)" srcset="images/downtownGilbert500.jpg">
-            <source media="(max-width: 1400px" srcset="images/downtownGilbert800.jpg">
+            <source media="(max-width: 1400px)" srcset="images/downtownGilbert800.jpg">
             <img src="images/downtown-Gilbert.JPG" alt="Image of Downtown Gilbert and famous water tower">
         </picture>
-       <a href="./html/join.html"><button type="button" class="heroButton">Join Us!</button></a>
+       <a href="./html/join.html"><div class="heroButton">Join Us!</div></a>
     </section>
 
 <!--EVENT SECTION-->
@@ -78,18 +78,18 @@
 <!--WEATHER SECTION-->
    <section class="weather">
        <h2>Weather</h2>
-       <h3>Today's Weather in Gilbert</h3>
-       <img src="images/sun.webp" alt="clipart of sun and clouds" height="100">
-       <h3><span id="temperature"> 38 </span>&#176; and Cloudy</h3>
+       <img src="" alt="" id="weathericon">
+       <h3><span id="current-temp"></span> &#176;F</h3>
+       <p><span id="desc"></span></p>
+       <p>Wind Speed: <span id="speed"></span>mph</p>
        <p>Wind Chill: <span id="windchill"></span></p>
-       <p>Wind Speed: <span id="windspeed"> 10 </span>mph</p>
    </section>
 
    <!--JOIN SECTION-->
    <section class="join">
-       <h2>Join</h2>
+       <h2>Join GCC</h2>
+       <a href="./html/join.html"><div class="joinButton">Learn More</div></a>
        <p>Discover how to join the Gilbert Chamber of Commerce and how it will greatly benefir your organization!</p>
-       <a href="./html/join.html"><button type="button" class="joinButton">Learn More</button></a>
    </section>
 
    <!--NEWS SECTION-->
@@ -150,5 +150,6 @@
 <script src="../chamber/js/myscripts.js"></script>
 <script src="./js/windchill.js"></script>
 <script src="./js/banner.js"></script>
+<script src="./js/weatherapi.js"></script>
 </body>
 </html>
