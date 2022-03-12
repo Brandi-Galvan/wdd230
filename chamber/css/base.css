@@ -141,6 +141,9 @@ button {
     background-color: #d8c8ab;
     padding: .5em;
     margin: 0.5rem;
+    border: 5px groove #a6c09bbf;
+    box-shadow: 4px 4px 6px #2f3e46;
+    border-radius: 10px;
 }
 
 /* Hero Section Styling */
@@ -351,10 +354,17 @@ footer {
     font-size: 0.75rem;
 }
 
+.discoverPictures img {
+    border: 5px groove #a6c09bbf;
+    border-radius: 10px;
+}
+
 .discoverPictures img:hover {
     box-shadow: 0 0 17px 5px #2f3e46;
     transition: 0.4s;
     border-radius: 20px;
+    border: 5px groove #a6c09bbf;
+    transition-duration: .5s;
 }
 
 picture img.in {
@@ -406,7 +416,7 @@ form {
 
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid #2f3e46;
+    border: 5px groove #a6c09bbf;
     border-radius: 10px;
     padding: .5rem 2%;
     max-width: 25rem;
