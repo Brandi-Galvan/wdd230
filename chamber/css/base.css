@@ -230,6 +230,7 @@ button {
 
 .spotlight div {
     border: 1.5px solid #f5f2e9;
+    border-radius: 10px;
     padding: 0.5rem;
     width: auto;
     height: auto;
