@@ -1,5 +1,6 @@
 // Banner for web page
-const dayofweek = now.getDay();
+const day = new Date();
+const dayofweek = day.getDay();
 
 let banner;
 	if (dayofweek == 1 || dayofweek == 2) {
