@@ -1,5 +1,3 @@
-
-
 const requestURL = "https://brandi-galvan.github.io/wdd230/chamber/data/data.json"
 
 const cards = document.querySelector(".member-cards");

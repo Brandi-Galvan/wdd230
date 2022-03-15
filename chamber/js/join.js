@@ -1,3 +1,4 @@
+// Storing the join date of a user
 join = new Date();
 var joinDate = "Last Sync: " + join.getDate() + "/"
 	+ (join.getMonth()+1)  + "/"

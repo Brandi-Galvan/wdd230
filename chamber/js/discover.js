@@ -1,3 +1,4 @@
+//Displaying the last visit date of the user
 let lastvisit = Number(window.localStorage.getItem('lastvisit'));
 let thisvisit = Date.now();
 

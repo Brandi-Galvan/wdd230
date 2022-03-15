@@ -1,4 +1,4 @@
-
+// Weather API pull
 const apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=gilbert&units=imperial&appid=157dea0b1a28c8415ca1013f1e78acd2'
 
 fetch(apiURL)
@@ -6,13 +6,13 @@ fetch(apiURL)
   .then((jsObject) => {
     console.log(jsObject);
     const t = jsObject.main.temp.toFixed(1);
-    document.querySelector('#current-temp').textContent = t;
+    document.querySelector('#currentTemp').textContent = t;
 
     const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
     const desc = jsObject.weather[0].description;
     const windsp = jsObject.wind.speed;
-    document.querySelector('#weathericon').setAttribute('src', iconsrc);
-    document.querySelector('#weathericon').setAttribute('alt', desc);
+    document.querySelector('#weaIcon').setAttribute('src', iconsrc);
+    document.querySelector('#weaIcon').setAttribute('alt', desc);
     document.querySelector('#desc').textContent = desc;
     document.querySelector('#speed').textContent = windsp;
 

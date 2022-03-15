@@ -1,4 +1,4 @@
-
+// Banner for web page
 const dayofweek = now.getDay();
 
 let banner;

@@ -1,6 +1,6 @@
 // last modified date
 let text = document.lastModified;
-document.getElementById("updatedDate").innerHTML = text;
+document.getElementById("footerDate").innerHTML = text;
 
 // Header Date
 const datefieldUK = document.querySelector(".date");
@@ -21,7 +21,7 @@ menubutton.addEventListener('click', () => {
     ham.classList.toggle('hidden');
 }, false);
 
-// To solve the mid resizing issue with responsive class on
+// Solving resizing issue
 window.onresize = () => {
     if (window.innerWidth > 760) {
         mainnav.classList.remove('responsive');
