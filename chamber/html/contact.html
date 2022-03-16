@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" class="js-focus-visible" data-js-focus-visible>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Brandi Glover">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Page for Gilbert Chamber of Commerce Site by Brandi Glover for WDD230 course">
+    <title>Contact Us | The Gilbert Chamber of Commerce</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/medium.css">
+    <link rel="stylesheet" href="../css/large.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="../images/thegilbertchamber-favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <span id="eventbanner">Come join us for the chamber meet and greet Wednesday at 7:00 p.m </span>
+<!--HEADER-->
+    <header>
+        <img src="../images/thegilbertchamber-logo.webp" alt="Gilbert CC logo" class="gilbert-cc-logo">
+        <h1>GILBERT<br>
+            <span id="chamberofcommerce">CHAMBER OF COMMERCE</span><br>
+            <span class="header-sub"><em>Meeting all of Gilbert, Arizona's needs</em></span>
+        </h1>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank">
+                <img src="../images/facebook.png" alt="Facebook Icon" class="icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="../images/instagram2.png" alt="Instagram Icon" class="icon">
+            </a>
+        </div>
+
+<!--NAVIGATION-->
+<nav>
+    <button class="menu">
+        <span id="ham" class="toggle-btn"> &#9776; </span>
+        <span id="xbutton" class="hidden toggle-btn"> X </span>
+    </button>
+    <ul class="navigation">
+            <li class="active"><a href="https://brandi-galvan.github.io/wdd230/chamber/index.html">Home</a></li>
+            <li><a href="https://brandi-galvan.github.io/wdd230/chamber/html/discover.html">Discover</a></li>
+            <li><a href="https://brandi-galvan.github.io/wdd230/chamber/html/directory.html">Directory</a></li>
+            <li><a href="https://brandi-galvan.github.io/wdd230/chamber/html/join.html">Join</a></li>
+            <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+    <div class="date">
+        Saturday, February 5, 2022
+    </div>
+</header>
+
+<!--MAIN-->
+<!-- <main class="joinMain">
+    <h1>Join the Gilbert Chamber</h1>
+        <form method="get" action="thanks.html">
+            <div class="memGrid">
+            <fieldset id="appInfo">
+                <legend>Applicant Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Email <input type="email" name="email" placeholder="business.professional@gmail.com" required></label>
+                <label class="top">Phone Number <input type="tel" name="phone" placeholder="1235556789"></label>
+            </fieldset>
+
+            <fieldset id="busInfo">
+                <legend>Business Information</legend>
+                <label class="top">Business Name* <input type="text" name="business" required></label>
+                <label class="top">Business Position <input type="text" name="title" pattern="^[a-zA-Z- ].{7,}$" ></label>
+                <label class="top">Business Description <br><textarea name="bizDescription"></textarea></label>
+            </fieldset>
+            <fieldset id="memInfo">
+                <legend>Chamber Membership Levels</legend>
+                <label class="sbs"><input type="radio" name="membership" value="nonprofit">Non Profit<span class="npCost">FREE</span></label>
+                <div class="membershipLevels">
+                    <ul class="levelDescription">
+                        <li>Business and categorical listing on our website to include business name, address, and phone number</li>
+                        <li>Special members-only pricing to Chamber events</li>
+                        <li>Subscription to Chamber's weekly e-mail communication</li>
+                        <li>Business referrals to help your business grow</li>
+                        <li>Membership decal for display at your place of business</li>
+                        <li>Chamber's logo for use in your advertising and/or website</li>
+                        <li>Business counseling provided by SCORE/SBDC</li>
+                        <li>Ability to post discounts and job postings on our website</li>
+                        <li>Ability to submit member news and announcements</li>
+                    </ul>
+                </div>
+                <label class="sbs"><input type="radio" name="membership" value="bronze">Bronze Membership<span class="bronzeCost">$520</span></label>
+                <div class="membershipLevels">Non Profit benefits, PLUS:
+                    <ul class="levelDescription">
+                        <li>Expanded business listing on our website to include website and map links, hours of operation, name of representative, two slideshow photos and up to eight keywords/phrases</li>
+                        <li>Social media links may include Facebook, Twitter, Instagram, LinkedIn and YouTube</li>
+                        <li>Referral team membership (upon availability)</li>
+                        <li>Ribbon cutting or grand opening event upon joining</li>
+                        <li>U.S. Chamber of Commerce membership and discounts</li>
+                        <li>Ability to purchase a multi-business membership</li>
+                        <li>Ability to purchase a second category listing ($50)</li>
+                    </ul>
+                </div>
+                <label class="sbs"><input type="radio" name="membership" value="silver">Silver Membership<span class="silverCost">$835</span></label>
+                <div class="membershipLevels">Bronze and Non Profit benefits, PLUS:
+                    <ul class="levelDescription">
+                        <li>Expanded business listing on website, to inlude logo, three additional slideshow photos and seven keywords/phrases</li>
+                        <li>Business card headshot in representative field</li>
+                        <li>URL link to consumber-based review website</li>
+                        <li>Second category listing on our website</li>
+                        <li>One complimentary set at each Good Government event</li>
+                        <li>Comprehensive membership list sent electronically each year</li>
+                        <li>Placement of business cards in Chamber lobby</li>
+                    </ul>
+                </div>
+                <label class="sbs"><input type="radio" name="membership" value="gold">Gold Membership<span class="goldCost">$4,600</span></label>
+                <div class="membershipLevels">Silver, Bronze, and Non Profit benefits, PLUS:
+                    <ul class="levelDescription">
+                        <li>Logo displayed in the Chamber's weekly email communication</li>
+                        <li>Twenty-five word description on our website</li>
+                        <li>One rotating banner advertisement on our website</li>
+                        <li>One rotating advertisement on the Chamber lobby monitor</li>
+                    </ul>
+                </div>
+            </fieldset>
+            </div>
+            <div id="time" hidden></div>
+            <input type="hidden" id="joinDate" name="joinDate" value="">
+            <input type="submit" value="Become a GCC Member" class="submitBtn">
+        </form>
+    </main> -->
+
+
+<!--FOOTER-->
+<footer>
+    <div class="commerceFooter">
+      <section class="gilChamber">
+          <img src="../images/thegilbertchamber-logo.webp" alt="Gilbert Chamber of Commerce logo" class="logo" height="80">
+          <h2>Gilbert Chamber of Commerce</h2>
+          <p>55 E Civic Center Dr Gilbert, AZ 85296</p>
+      </section>
+      <section class="contact">
+          <h2>Contact Us</h2>
+          <p>gilbertchamber@gmail.com</p>
+          <p>(480) 456-7890</p>
+          <p> <a href="https://www.google.com/maps/place/55+E+Civic+Center+Dr,+Gilbert,+AZ+85296/@33.3300105,-111.790959,17z/data=!3m1!4b1!4m5!3m4!1s0x872ba9612f000d0d:0x5b74706e5f689a16!8m2!3d33.330006!4d-111.788765" target="_blank">Location Map</a></p>
+      </section>
+    </div>
+  <hr>
+  <div class="classFooter">
+      &copy; <span id="currentyear"></span>
+       | Brandi Glover | Gilbert, AZ
+  </div>
+  <div class="lastUpdated">Last Updated <span id="footerDate"></span></div>
+  </footer>
+  <script src="../js/myscripts.js"></script>
+  <script src="../js/banner.js"></script>
+  <script defer src="../js/join.js"></script>
+  </body>
+  </html>
