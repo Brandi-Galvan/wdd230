@@ -497,7 +497,7 @@ form label.top input:required:valid {
 }
 
 .bronzeCost {
-    background-color: #CD7F32;
+    background-color: #e0984f;
     color: #2f3e46;
     padding: 0.25rem 1rem;
     margin-left: 0.8rem;
@@ -633,3 +633,8 @@ form label.top input:required:valid {
     color: #2F3E46
   }
   
+/* CONTACT PAGE */
+.contactMain {
+    margin: auto 0;
+    padding: 5px;
+}
