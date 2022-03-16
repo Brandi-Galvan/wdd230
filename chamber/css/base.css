@@ -635,6 +635,25 @@ form label.top input:required:valid {
   
 /* CONTACT PAGE */
 .contactMain {
-    margin: auto 0;
-    padding: 5px;
+    margin: auto;
+    padding: 15px;
+}
+
+.contactTop {
+    text-align: center;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contactForm label.top .contactWidth {
+    width: 100%;
+    max-width: 45rem;
+}
+
+textarea {
+    height: 150px;
 }

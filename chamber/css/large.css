@@ -232,5 +232,15 @@ form input.submitBtn {
 	border-radius: 5px;
 }
 
+/* CONTACT PAGE */
+.contactFN {
+	float: left;
+	width: 50%;
+}
+
+.contactForm form {
+    min-width: 55rem;
+}
+
 
 }

@@ -134,4 +134,9 @@
     padding: 5rem;
 }
 
+/* CONTACT PAGE */
+.contactForm form {
+    min-width: 45rem;
+}
+
 }

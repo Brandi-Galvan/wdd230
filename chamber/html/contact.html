@@ -47,7 +47,7 @@
             <li><a href="https://brandi-galvan.github.io/wdd230/chamber/html/discover.html">Discover</a></li>
             <li><a href="https://brandi-galvan.github.io/wdd230/chamber/html/directory.html">Directory</a></li>
             <li><a href="https://brandi-galvan.github.io/wdd230/chamber/html/join.html">Join</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="https://brandi-galvan.github.io/wdd230/chamber/html/contact.html">Contact</a></li>
     </ul>
 </nav>
     <div class="date">
@@ -74,26 +74,27 @@
 
 
 
-
+    <section class="contactForm">
     <form method="get" action="thanks.html">
         <div>
             <fieldset>
                 <legend>Applicant Information</legend>
-                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top contactFN">First Name* <input type="text" name="fname" required></label>
                 <label class="top">Last Name* <input type="text" name="lname" required></label>
-                <label class="top">Email <input type="email" name="email" placeholder="business.professional@gmail.com" required></label>
-                <label class="top">Company Name* <input type="text" name="business" required></label>
+                <label class="top">Email <input type="email" name="email" placeholder="business.professional@gmail.com" class="contactWidth" required></label>
+                <label class="top">Company Name* <input type="text" name="business" class="contactWidth" required></label>
             <div>
                 <h4>Are you a GCC Member?*</h4>
                 <label class="sbs"><input type="radio" name="membership" value="yes">Yes</label>
                 <label class="sbs"><input type="radio" name="membership" value="no">No</label>
                 <label class="sbs"><input type="radio" name="membership" value="unsure">Unsure</label>
             </div>
-                <label class="top">What Questions do you have for GCC? <br><textarea name="bizDescription" required></textarea></label>
+                <label class="top">What Questions do you have for GCC? <br><textarea name="bizDescription" class="contactWidth" required></textarea></label>
         </fieldset>
         </div>
         <input type="submit" value="Become a GCC Member" class="submitBtn">
         </form>
+    </section>
     </main>
 
 
