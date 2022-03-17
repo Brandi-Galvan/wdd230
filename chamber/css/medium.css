@@ -135,8 +135,11 @@
 }
 
 /* CONTACT PAGE */
+
 .contactForm form {
-    min-width: 45rem;
+    align-self:center;
+    min-width:20em;
+    max-width:80%;
 }
 
 }

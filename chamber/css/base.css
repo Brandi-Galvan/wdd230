@@ -636,17 +636,39 @@ form label.top input:required:valid {
 /* CONTACT PAGE */
 .contactMain {
     margin: auto;
-    padding: 15px;
-}
-
-.contactTop {
-    text-align: center;
-}
-
-.contactForm {
+    padding: 5px;
+    max-width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.contactHeader {
+    font-size: 2rem;
+    text-align: center;
+    color:#2f3e46;
+    align-self:center;
+    min-width:20em;
+}
+
+.contactQuestions p{
+	font-size: .8rem;
+    line-height: 1.5rem;
+}
+
+.contactImg{
+    margin: auto 0;
+    width: 100%;
+}
+
+.contactMain h3 {
+    text-align:center;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+section.contactForm {
+    padding-top: 0;
 }
 
 .contactForm label.top .contactWidth {
@@ -654,6 +676,20 @@ form label.top input:required:valid {
     max-width: 45rem;
 }
 
+.contactForm div {
+    padding: 0;
+}
+
+.contactForm form fieldset{
+    border: 1px solid #2f3e46;
+}
+
 textarea {
     height: 150px;
+}
+
+.contactIntro {
+    text-align: center;
+    line-height: 2rem;
+    background-color:rgba(216,200,171,0.4)
 }

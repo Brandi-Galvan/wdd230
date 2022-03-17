@@ -58,27 +58,30 @@
 <!--MAIN-->
 <main class="contactMain">
     <section>
-        <div class="contactTop">
-            <div class="contactVerb">
-                <div class="contactIntro">
-                    <h2>Contact Us</h2>
-                    <p><strong>Gilbert Chamber of Commerce</strong><br>
-                    55 E Civic Center Dr<br>Gilbert, AZ 85296<br>(480)-456-7890</p>
-                </div>
+        <h2 class="contactHeader">Contact Us</h2>   
+        <div>
+            <img src="../images/GilbertSign.webp" class="contactImg">
+        </div> 
+        <div class="contactIntro">
+            <div class="contactAddy">
+                <h4><strong>Gilbert Chamber of Commerce</strong><br></h4>
+                <p>55 E Civic Center Dr<br>Gilbert, AZ 85296<br>(480) 456-7890</p>
             </div>
-            <div class="contactImg">
-                <img src="#">
+            <div class="contactQuestions">
+                <h4><strong>For Questions About:</strong><br></h4>
+                <p><strong>Membership </strong>or accessing existing member benefits contact customers@gilbertchamber.com<br>
+                <strong>Economic Development/Opportunity </strong>contact Denise at denise@gilbertchamber.com<br>
+                <strong>Sponsorship opportunities </strong>contact Brad at sponsor@austinchamber.com<br>
+                <strong>Media inquiries </strong>contact Christian at chamber@echristianpr.com</p>
             </div>
         </div>
     </section>
-
-
-
+    <h3>Get In Touch</h3>
     <section class="contactForm">
     <form method="get" action="thanks.html">
         <div>
             <fieldset>
-                <legend>Applicant Information</legend>
+                
                 <label class="top contactFN">First Name* <input type="text" name="fname" required></label>
                 <label class="top">Last Name* <input type="text" name="lname" required></label>
                 <label class="top">Email <input type="email" name="email" placeholder="business.professional@gmail.com" class="contactWidth" required></label>
@@ -89,7 +92,7 @@
                 <label class="sbs"><input type="radio" name="membership" value="no">No</label>
                 <label class="sbs"><input type="radio" name="membership" value="unsure">Unsure</label>
             </div>
-                <label class="top">What Questions do you have for GCC? <br><textarea name="bizDescription" class="contactWidth" required></textarea></label>
+                <label class="top">What Questions do you have for GCC?*<br><textarea name="bizDescription" class="contactWidth" required></textarea></label>
         </fieldset>
         </div>
         <input type="submit" value="Become a GCC Member" class="submitBtn">

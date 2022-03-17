@@ -233,6 +233,20 @@ form input.submitBtn {
 }
 
 /* CONTACT PAGE */
+
+.contactIntro {
+	display: grid;
+	grid: 1fr / 1fr 1fr;
+}
+
+.contactAddy {
+	grid-area: 1 / 1 / 2 / 2;
+}
+
+.contactQuestions {
+	grid-area: 1 / 2 / 2 / 3;
+}
+
 .contactFN {
 	float: left;
 	width: 50%;
