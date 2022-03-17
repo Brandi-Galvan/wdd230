@@ -11,9 +11,9 @@ body {
     background-color: #f5f2e9;
 }
 
-.gilbert-cc-logo
-{
+a.gilbert-cc-logo {
     height: 80px;
+    justify-self: center;
 }
 
 h1 {
@@ -342,6 +342,10 @@ footer {
 .classFooter {
     padding: .5em;
     font-size: 20px;
+}
+
+footer img.logo {
+    justify-self: right;
 }
 
 /* DISCOVER PAGE */
