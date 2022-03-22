@@ -8,7 +8,7 @@ fetch(requestURL)
     .then(function (jsonObject) {
         const members = jsonObject['members'];
         const filteredMembers = members.filter((member) => {
-            return member.membership == "Bronze" || member.membership == "Silver" || business.membership == "Gold";
+            return member.membership == "Bronze" || member.membership == "Silver" || member.membership == "Gold";
         });
         spotDiv.forEach((spot,index) => {
             const i = Math.floor(Math.random()*filteredMembers.length);
