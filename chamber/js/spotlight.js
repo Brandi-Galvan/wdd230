@@ -6,32 +6,32 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        const businesses = jsonObject['members'];
-        const filteredBusinesses = businesses.filter((business) => {
-            return business.membership == "Bronze" || business.membership == "Silver" || business.memerbship == "Gold";
+        const members = jsonObject['members'];
+        const filteredMembers = members.filter((member) => {
+            return member.membership == "Bronze" || member.membership == "Silver" || member.membership == "Gold";
         });
-        spotlightItems.forEach((spotlight,index) => {
-            const i = Math.floor(Math.random()*filteredBusinesses.length);
-            const business = filteredBusinesses[i];
+        spotDiv.forEach((spot,index) => {
+            const i = Math.floor(Math.random()*filteredMembers.length);
+            const member = filteredMembers[i];
 
-            //img
+            //logo for spotlight
             let image = document.createElement('img');
-            image.src = business.logo;
-            image.setAttribute('alt', business.name);
-            spotlight.appendChild(image);
+            image.src = members.logo;
+            image.setAttribute('alt', members.name);
+            spot.appendChild(image);
 
-            //p phone
+            //p phone for spotlight
             let p2 = document.createElement('p');
-            p2.textContent = business.phone;
-            spotlight.appendChild(p2);
+            p2.textContent = members.phone;
+            spot.appendChild(p2);
 
-            //p website
+            //p website for spotlight
             let p3 = document.createElement('p');
-            p3.textContent = business.website;
-            spotlight.appendChild(p3);
+            p3.textContent = members.website;
+            spot.appendChild(p3);
 
 
-            filteredBusinesses.splice(i,1);
+            filteredMembers.splice(i,1);
         });
     });
 
