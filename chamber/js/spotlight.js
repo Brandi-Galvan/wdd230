@@ -16,18 +16,18 @@ fetch(requestURL)
 
             //logo for spotlight
             let image = document.createElement('img');
-            image.src = member.logo;
+            image.src = members.logo;
             image.setAttribute('alt', member.name);
             spot.appendChild(image);
 
             //p phone for spotlight
             let p2 = document.createElement('p');
-            p2.textContent = member.phone;
+            p2.textContent = members.phone;
             spot.appendChild(p2);
 
             //p website for spotlight
             let p3 = document.createElement('p');
-            p3.textContent = member.website;
+            p3.textContent = members.website;
             spot.appendChild(p3);
 
 
