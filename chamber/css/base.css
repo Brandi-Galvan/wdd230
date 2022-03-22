@@ -242,7 +242,7 @@ nav ul li.active a {
     margin: 5px;
 }
 
-.spotlight div p {
+.spotlight p {
     color: black;
     font-weight: normal;
     padding-left: .5em;
@@ -253,10 +253,6 @@ nav ul li.active a {
     width: 150px;
     min-height: 100px;
     padding-top: .75rem;
-}
-
-#spotDiv3 {
-    display: none;
 }
 
 /* Event Section Styling */

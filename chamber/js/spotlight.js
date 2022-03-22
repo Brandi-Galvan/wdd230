@@ -1,42 +1,38 @@
-const requestURL = "https://brandi-galvan.github.io/wdd230/chamber/data/data.json"
-const spotDiv = document.querySelectorAll(".spotDiv")
+const requestURL =
+'https://brandi-galvan.github.io/wdd230/chamber/data/data.json';
+const mainSpotlight = document.querySelector('.spotlight');
 
 fetch(requestURL)
-    .then(function (response) {
-        return response.json();
-    })
-    .then(function (jsonObject) {
-        const members = jsonObject['members'];
-        const filteredMembers = members.filter((member) => {
-            return member.membership == "bronze" || member.membership == "silver" || member.membership == "gold";
-        });
-        spotDiv.forEach((spot,index) => {
-            const i = Math.floor(Math.random()*filteredMembers.length);
-            const member = filteredMembers[i];
+.then(function (response) {
+return response.json();
+})
+.then(function (jsonObject) {
+const members = jsonObject['members'];
 
-            //logo for spotlight
-            let image = document.createElement('img');
-            image.src = members.logo;
-            image.setAttribute('src', members.logo);
-            image.setAttribute('alt', members.name);
-            spot.appendChild(image);
+const spotArray = members.filter((member, index) => index < 3);
 
-            //p phone for spotlight
-            let p2 = document.createElement('p');
-            p2.textContent = members.phone;
-            spot.appendChild(p2);
+spotArray.forEach((spot, index) => {
+let spotlight = document.createElement('div');
+spotlight.classList.add('spotDiv');
+spotlight.setAttribute('id', `spotDiv${index + 1}`);
 
-            //p website for spotlight
-            let p3 = document.createElement('p');
-            p3.textContent = members.website;
-            spot.appendChild(p3);
+//logo for spotlight
+let image = document.createElement('img');
+image.src = spot.logo;
+image.setAttribute('src', spot.logo);
+image.setAttribute('alt', spot.name);
+spotlight.appendChild(image);
 
+//p phone for spotlight
+let p2 = document.createElement('p');
+p2.textContent = spot.phone;
+spotlight.appendChild(p2);
 
-            filteredMembers.splice(i,1);
-        });
-    });
+//p website for spotlight
+let p3 = document.createElement('p');
+p3.textContent = spot.website;
+spotlight.appendChild(p3);
 
-
-
-
-
+mainSpotlight.appendChild(spotlight);
+});
+});

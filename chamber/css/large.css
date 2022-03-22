@@ -85,15 +85,8 @@
 /*Spotlight Styling */
 .spotlight {
     grid-area: 1 / 6 / 4 / 8;
-}
-
-.spotDiv {
 	width: 95%;
 	display: block;
-}
-
-#spotDiv3 {
-	display: initial;
 }
 
 /* Event Styling */
