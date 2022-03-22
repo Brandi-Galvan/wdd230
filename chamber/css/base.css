@@ -242,6 +242,19 @@ nav ul li.active a {
     margin: 5px;
 }
 
+.spotlight div p {
+    color: black;
+    font-weight: normal;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.spotlight img {
+    width: 150px;
+    min-height: 100px;
+    padding-top: .75rem;
+}
+
 #spotDiv3 {
     display: none;
 }
