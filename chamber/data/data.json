@@ -5,84 +5,96 @@
         "address": "428 S Gilbert Rd #106-7, Gilbert, AZ 85296",
         "phone": "(480) 250-3873",
         "website": "https://www.armstrongmassage.com/",
-        "logo": "../images/armstrong_massage_rehab.png"
+        "logo": "../images/armstrong_massage_rehab.png",
+        "membership": "gold"
       },
       {
         "name": "Angel Adult Day Center",
         "address": "500 S Gilbert Rd, Gilbert, AZ 85296",
         "phone": "(480) 630-6211",
         "website": "https://angeladultcenter.org/",
-        "logo": "../images/angel_adult_day_center.png"
+        "logo": "../images/angel_adult_day_center.png",
+        "membership": "silver"
       },
       {
         "name": "Greenhouse Montessori Primary School",
         "address": "505 S Gilbert Rd, Gilbert, AZ 85295",
         "phone": "(480) 635-0386",
         "website": "http://www.greenhousemontessorischool.com/",
-        "logo": "../images/greenhouse_montessori.png"
+        "logo": "../images/greenhouse_montessori.png",
+        "membership": "bronze"
       },
       {
         "name": "Board & Brush Creative Studio",
         "address": "538 S Gilbert Rd, Gilbert, AZ 85296",
         "phone": "(480) 486-6151",
         "website": "https://boardandbrush.com/",
-        "logo": "../images/board_and_brush.jpg"
+        "logo": "../images/board_and_brush.jpg",
+        "membership": "gold"
       },
       {
         "name": "Paradox Escape Room",
         "address": "7 E Palo Verde St # 9, Gilbert, AZ 85296",
         "phone": "(480) 535-5060",
         "website": "https://www.escapeaz.com/",
-        "logo": "../images/paradox_escape_room.png"
+        "logo": "../images/paradox_escape_room.png",
+        "membership": "silver"
       },
       {
         "name": "Karma Apple Juicery",
         "address": "7 E Palo Verde St # 2, Gilbert, AZ 85296",
         "phone": "(480) 465-6978",
         "website": "https://karmaappleaz.com/",
-        "logo": "../images/karma_apple_juicery.jpg"
+        "logo": "../images/karma_apple_juicery.jpg",
+        "membership": "bronze"
       },
       {
         "name": "Arizona Hardwood Floor Supply",
         "address": "15 N Gilbert Rd, Gilbert, AZ 85234",
         "phone": "(480) 632-9111",
         "website": "https://www.azwood.com/",
-        "logo": "../images/arizona_hardwood_floor_supply.jpg"
+        "logo": "../images/arizona_hardwood_floor_supply.jpg",
+        "membership": "gold"
       },
       {
         "name": "The Suit Effect",
         "address": "20 N Gilbert Rd suite b, Gilbert, AZ 85234",
         "phone": "(480) 771-4473",
         "website": "https://www.thesuiteffect.com/",
-        "logo": "../images/the_suit_effect.jpg"
+        "logo": "../images/the_suit_effect.jpg",
+        "membership": "silver"
       },
       {
         "name": "Studio 223",
         "address": "223 N Gilbert Rd, Gilbert, AZ 85234",
         "phone": "(480) 892-2808",
         "website": "https://studio223az.com/",
-        "logo": "../images/studio_223.jpeg"
+        "logo": "../images/studio_223.jpeg",
+        "membership": "bronze"
       },
       {
         "name": "Liberty Market",
         "address": "230 N Gilbert Rd, Gilbert, AZ 85234",
         "phone": "(480) 892-1900",
         "website": "https://libertymarket.com/",
-        "logo": "../images/liberty_market.png"
+        "logo": "../images/liberty_market.png",
+        "membership": "gold"
       },
       {
         "name": "FunkFit Downtown Gilbert",
         "address": "213 N Gilbert Rd, Gilbert, AZ 85234",
         "phone": "(480) 503-2307",
         "website": "https://funkfit.com/",
-        "logo": "../images/funkfit_gilbert.jpg"
+        "logo": "../images/funkfit_gilbert.jpg",
+        "membership": "silver"
       },
       {
         "name": "Culinary Dropout",
         "address": "383 N Gilbert Rd, Gilbert, AZ 85234",
         "phone": "(480) 418-3980",
         "website": "https://www.culinarydropout.com/",
-        "logo": "../images/culinary_dropout_gilbert.jpg"
+        "logo": "../images/culinary_dropout_gilbert.jpg",
+        "membership": "bronze"
       }
     ]
   }
