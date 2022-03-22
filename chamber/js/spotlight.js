@@ -17,6 +17,7 @@ fetch(requestURL)
             //logo for spotlight
             let image = document.createElement('img');
             image.src = members.logo;
+            image.setAttribute('src', members.logo);
             image.setAttribute('alt', members.name);
             spot.appendChild(image);
 
