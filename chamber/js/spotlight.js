@@ -10,39 +10,30 @@ fetch(requestURL)
         const filteredMembers = members.filter((member) => {
             return member.membership == "Bronze" || member.membership == "Silver" || member.membership == "Gold";
         });
-       function filteredMembers(member) {
-            let spot = document.createElement('section');
-            
-            //h2 name
-            let name = document.createElement('h2');
-            name.textContent = `${member.name}`;
-            spot.appendChild(name);
-            
-            //p address
-            let address = document.createElement('p');
-            address.textContent = `${member.address}`;
-            spot.appendChild(address);
-            
-            //p phone
-            let phone = document.createElement('p');
-            phone.textContent = `${member.phone}`;
-            spot.appendChild(phone);
-            
-            //website
-            let website = document.createElement("p");
-            website.innerHTML = `<a href="https://www.${member.website}">${member.website}</a>`;
-            spot.appendChild(website);
-        
-            // img
-            let logo = document.createElement('img');
-            logo.setAttribute("src", member.logo);
-            logo.setAttribute("alt", `${member.name} Logo`);
-            logo.setAttribute("loading", "lazy");
-            spot.appendChild(logo);
-            
-            spotDiv.appendChild(spot);
-        }
+        spotDiv.forEach((spot,index) => {
+            const i = Math.floor(Math.random()*filteredMembers.length);
+            const member = filteredMembers[i];
+
+            //logo for spotlight
+            let image = document.createElement('img');
+            image.src = member.logo;
+            image.setAttribute('alt', member.name);
+            spot.appendChild(image);
+
+            //p phone for spotlight
+            let p2 = document.createElement('p');
+            p2.textContent = member.phone;
+            spot.appendChild(p2);
+
+            //p website for spotlight
+            let p3 = document.createElement('p');
+            p3.textContent = member.website;
+            spot.appendChild(p3);
+
+
+            filteredMembers.splice(i,1);
         });
+    });
 
 
 
