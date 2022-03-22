@@ -88,7 +88,7 @@ function displayMembersList(memberList) {
     memlist.appendChild(mlist);
 
     if (window.innerWidth >= 800 && window.innerWidth <= 1200) {
-        members.forEach(displayMembers);
+        members.forEach(displayMembersList);
         memlist.innerHTML = "";
 };
 }
