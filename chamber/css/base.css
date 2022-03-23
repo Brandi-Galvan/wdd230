@@ -244,7 +244,7 @@ nav ul li.active a {
     overflow-wrap: break-word;
 }
 
-#spotDiv3 {
+.spotlight div:nth-child(3) {
     display: none;
 }
 

@@ -42,14 +42,14 @@ fetch(requestURL)
     } 
     //building the sections for html
     function buildSpotlight(company, index) {
-        let bizCard = document.createElement('section')
+        let bizCard = document.createElement('div')
         let h4 = document.createElement('h3');
         let img = document.createElement('img');
         let phone = document.createElement('p');
         let address = document.createElement('p');
         let site = document.createElement('p');
 
-        bizCard.setAttribute('class', `spot${index}`);
+        bizCard.setAttribute('class', `spotDiv`);
 
         //building the text 
         h4.textContent = `${company.name}`;

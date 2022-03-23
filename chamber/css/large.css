@@ -89,7 +89,7 @@
 	display: block;
 }
 
-#spotDiv3 {
+.spotlight div:nth-child(3) {
     display: block;
 }
 

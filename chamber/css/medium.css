@@ -81,10 +81,6 @@
         grid-column-gap: 5px;
     }
 
-    #spotDiv3 {
-        display: none;
-    }
-
 /* Footer Styling */
     .commerceFooter {
         align-items: center;
