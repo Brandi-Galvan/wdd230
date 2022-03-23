@@ -5,7 +5,7 @@
         "address": "428 S Gilbert Rd #106-7, Gilbert, AZ 85296",
         "phone": "(480) 250-3873",
         "website": "https://www.armstrongmassage.com/",
-        "logo": "images/armstrong_massage_rehab.png",
+        "logo": "../images/armstrong_massage_rehab.png",
         "membership": "gold"
       },
       {
@@ -13,7 +13,7 @@
         "address": "500 S Gilbert Rd, Gilbert, AZ 85296",
         "phone": "(480) 630-6211",
         "website": "https://angeladultcenter.org/",
-        "logo": "images/angel_adult_day_center.png",
+        "logo": "../images/angel_adult_day_center.png",
         "membership": "silver"
       },
       {
@@ -21,7 +21,7 @@
         "address": "505 S Gilbert Rd, Gilbert, AZ 85295",
         "phone": "(480) 635-0386",
         "website": "http://www.greenhousemontessorischool.com/",
-        "logo": "images/greenhouse_montessori.png",
+        "logo": "../images/greenhouse_montessori.png",
         "membership": "bronze"
       },
       {
