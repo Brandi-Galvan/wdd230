@@ -267,7 +267,7 @@ nav ul li.active a {
 }
 
 .event img {
-    width: 4em;
+    width: 7em;
 }
 
 /* Weather Section Styling */
@@ -382,6 +382,7 @@ footer img.logo {
 .discoverPictures img {
     border: 5px groove #a6c09bbf;
     border-radius: 10px;
+    height: 250px;
 }
 
 .discoverPictures img:hover {
