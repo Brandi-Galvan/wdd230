@@ -9,11 +9,11 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         console.table(jsonObject);
-        const localbusiness = jsonObject['localbusiness'];
-        localbusiness.forEach(displayMembers);
+        const members = jsonObject['members'];
+        members.forEach(displayBusiness);
     });
 
-    function displayMembers(local) {
+    function displayBusiness(local) {
         //variables 
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
@@ -49,8 +49,8 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         console.table(jsonObject);
-        const localbusiness = jsonObject['localbusiness'];
-        localbusiness.forEach(displayList);
+        const members = jsonObject['members'];
+        members.forEach(displayList);
     });
 
     function displayList (locallist) {
