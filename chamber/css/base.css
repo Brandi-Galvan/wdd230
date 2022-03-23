@@ -627,7 +627,7 @@ form label.top input:required:valid {
     width: 50%;
   }
   
-  .member-cards section {
+  .member-cards {
     background-color: rgba(216,200,171,0.8);
     color: #2F3E46;
     border: 5px groove rgba(166, 192, 155, 0.75);

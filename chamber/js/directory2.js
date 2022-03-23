@@ -54,7 +54,7 @@ fetch(requestURL)
     });
 
     function displayList (locallist) {
-        //business rows
+        //member information displayed as list
         let row = document.createElement('tr');
         let name = document.createElement('td');
         let address = document.createElement('td');
@@ -79,12 +79,12 @@ fetch(requestURL)
         var grid = document.querySelector(".member-cards");
         grid.style.display = "grid";
 
-        var list = document.querySelector(".member-list");
+        var list = document.querySelector(".mem-listTable");
         list.style.display = "none";
     }
 
     function listview() {
-        var grid = document.querySelector(".mem-listTable");
+        var grid = document.querySelector(".member-cards");
         grid.style.display = "none";
 
         var list = document.querySelector(".mem-listTable");
