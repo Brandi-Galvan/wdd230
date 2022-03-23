@@ -76,17 +76,17 @@ fetch(requestURL)
 
     //View Functions for list and grid
     function gridview() {
-        var grid = document.querySelector("#business-cards");
+        var grid = document.querySelector(".member-cards");
         grid.style.display = "grid";
 
-        var list = document.querySelector(".directorytable");
+        var list = document.querySelector(".member-list");
         list.style.display = "none";
     }
 
     function listview() {
-        var grid = document.querySelector("#business-cards");
+        var grid = document.querySelector(".mem-listTable");
         grid.style.display = "none";
 
-        var list = document.querySelector(".directorytable");
+        var list = document.querySelector(".mem-listTable");
         list.style.display = "table";
     }

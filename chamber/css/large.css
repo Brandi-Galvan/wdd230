@@ -224,9 +224,12 @@ form input.submitBtn {
     padding: 5rem;
 }
 
-.member-list table {
-	grid-template-columns: 30% 20% 20% 30%;
-	border-radius: 5px;
+.mem-listTable {
+    display: none;
+}
+
+.member-cards{
+	display: grid;
 }
 
 /* CONTACT PAGE */

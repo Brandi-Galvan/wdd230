@@ -134,6 +134,14 @@
     padding: 5rem;
 }
 
+.member-cards{
+    display: none;
+}
+
+.mem-listTable{
+    display: table;
+}
+
 /* CONTACT PAGE */
 
 .contactForm form {

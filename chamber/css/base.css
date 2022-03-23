@@ -581,6 +581,10 @@ form label.top input:required:valid {
     color: #2F3E46;
     margin-bottom: 10px;
   }
+
+  .mem-listTable {
+    display: none;
+  }
   
   #view {
     text-align: center;
@@ -634,28 +638,17 @@ form label.top input:required:valid {
     text-align: center;
   }
   
-  .member-list table {
-    display: grid;
-    grid-template-columns: 1fr;
+  .member-list tr{
     border-radius: 15px;
     border: 5px groove #a6c09bbf;
     padding: 10px;
     margin: 0.2rem 1%;
-  }
-
-  td:nth-child(1) {
-    font-weight: 800;
-    font-size: 1.2rem;
-  }
-  
-  table:nth-child(odd) {
-    background-color: #d8c8ab;
-    color: #2f3e46;
-  }
-  
-  table:nth-child(even) {
     background-color: #f5f2e9;
     color: #2F3E46
+  }
+  
+  .member-list tr:nth-child(odd) {
+    background-color: #d8c8ab;
   }
   
   
