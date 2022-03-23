@@ -9,7 +9,7 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         console.table(jsonObject);
-        const localbusiness = jsonObject['members'];
+        const localbusiness = jsonObject['localbusiness'];
         localbusiness.forEach(displayMembers);
     });
 
@@ -49,7 +49,7 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         console.table(jsonObject);
-        const localmember = jsonObject['localmember'];
+        const localbusiness = jsonObject['localbusiness'];
         localbusiness.forEach(displayList);
     });
 
