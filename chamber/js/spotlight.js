@@ -16,6 +16,11 @@ let spotlight = document.createElement('div');
 spotlight.classList.add('spotDiv');
 spotlight.setAttribute('id', `spotDiv${index + 1}`);
 
+//h2 heading for spotlight
+let h2 = document.createElement('h2');
+h2.textContent = spot.name;
+spotlight.appendChild(h2);
+
 //logo for spotlight
 let image = document.createElement('img');
 image.src = spot.logo;

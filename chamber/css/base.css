@@ -166,6 +166,7 @@ nav ul li.active a {
 .hero img {
     width: 100%;
     display:block;
+    height: 100%;
 }
 
 .heroHeading {
@@ -175,7 +176,7 @@ nav ul li.active a {
 
 .hero h2 {
     font-size: 30px;
-    margin: 0;
+    margin: 0px 9px 0px 0px;
     color: #f5f2e9;
     padding: 10px;
     background-color:rgba(47, 62, 70, 0.65)
@@ -236,10 +237,15 @@ nav ul li.active a {
 .spotlight div {
     border: 1.5px solid #f5f2e9;
     border-radius: 10px;
-    padding: 0.5rem;
+    padding: 0rem 0.5rem;
     width: auto;
     height: auto;
-    margin: 5px;
+    margin: 18px 5px;
+    overflow-wrap: break-word;
+}
+
+#spotDiv3 {
+    display: none;
 }
 
 .spotlight p {

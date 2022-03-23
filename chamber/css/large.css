@@ -89,6 +89,10 @@
 	display: block;
 }
 
+#spotDiv3 {
+    display: block;
+}
+
 /* Event Styling */
 .event {
 	grid-area: 1 / 1 / 2 / 3;
