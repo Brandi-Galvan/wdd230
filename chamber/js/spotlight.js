@@ -35,7 +35,7 @@ spotlight.appendChild(p2);
 
 //p website for spotlight
 let p3 = document.createElement('p');
-p3.textContent = spot.website;
+p3.innerHTML = `<a href="https://www.${spot.website}">${spot.website}</a>`;
 spotlight.appendChild(p3);
 
 mainSpotlight.appendChild(spotlight);
