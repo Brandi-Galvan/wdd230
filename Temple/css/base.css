@@ -156,6 +156,10 @@ section {
     border: 2px solid black;
 }
 
+#denverTemple p, #mcallenTemple p {
+    margin-top: 0;
+}
+
 /* CALL TO ACTION STYLING */
 #cta h3 {
     font-style: italic;
@@ -164,6 +168,7 @@ section {
 /* ***** FOOTER STYLING ***** */
 footer {
     background-color: black;
+    padding: 1em;
 }
 
 footer img {
