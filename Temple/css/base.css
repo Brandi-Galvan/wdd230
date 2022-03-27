@@ -1,0 +1,178 @@
+:root {
+    --forest: #144106;
+}
+
+h1, h2, h3, h4 {
+    font-family: serif;
+    color: var(--forest);
+}
+
+h1 {font-size: 30px;}
+h2 {font-size: 25px;}
+h3 {font-size: 20px;}
+
+p {
+    font-family: sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+.bookButton {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.bookButton:hover {
+    background-color: var(--forest);
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+/* *****HEADER STYLING***** */
+body {
+    background-color: white;
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+#templeHeader {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid black;
+    margin: 0 auto;
+    align-items: center;
+    justify-items: center;
+    font-size: .8em;
+    padding: .3em;
+    margin-bottom: .2rem;
+    grid-column-gap: .2rem;
+}
+
+#templeHeader h1 {
+    display: none;
+}
+
+.templeLogo {
+    height: 150px;
+}
+
+.socialIcons {
+
+}
+
+.socialIcons a img {
+    height: 40px;
+    padding: 2.5px;
+}
+
+#templeHeader {font-size: 60px;}
+#suitesHeader {font-size:55px}
+
+/* ***** NAVIGATION STYLING ***** */
+nav {
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0px;
+    margin: 48px;
+    position: absolute;
+    width: 80%;
+    left: 22px;
+    font-size: 30px;
+    top: 15%;
+    z-index: 1;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem 2vw;
+    text-decoration: none;
+    color: var(--forest);
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a:hover {
+    background-color: black;
+    color: white;
+    transition-duration: .5s;
+}
+
+nav ul li.active a {
+    border: 2px solid black;
+  }
+
+.menu {
+      background-color: var(--forest);
+      color: white;
+  }
+
+.hidden {
+    display: none;
+}
+
+/* ***** BODY STYLING ***** */
+.indexMain {
+    padding: 1em;
+}
+
+/* FEATURE STYLING */
+section {
+    width: 100%;
+    max-width: 760px;
+}
+
+.feature picture {
+    justify-content: center;
+}
+
+.featButton {
+    position: absolute;
+    top: 550px;
+    right: 80px;
+}
+
+#featHeading {
+    font-size: 30px;
+}
+
+/* SERVICES STYLING */
+
+#freeAmentities {
+    padding-top: 10px;;
+}
+
+/* TEMPLES STYLING */
+#phxTemple {
+    border: 2px solid black;
+}
+
+/* CALL TO ACTION STYLING */
+#cta h3 {
+    font-style: italic;
+}
+
+/* ***** FOOTER STYLING ***** */
+footer {
+    background-color: black;
+}
+
+footer img {
+    height: 150px;
+}
+
+footer h2, footer p, footer a, .classFooter, .lastUpdated {
+    color: white;
+}
+
+
+
