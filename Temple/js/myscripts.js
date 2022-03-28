@@ -3,15 +3,11 @@ let text = document.lastModified;
 document.getElementById("footerDate").innerHTML = text;
 
 //Hamburger menu
-const menubutton = document.querySelector('.menu');
-const mainnav = document.querySelector('.navigation');
-const exitbutton = document.querySelector('#xbutton');
-const ham = document.querySelector('#ham');
+const nav = document.querySelector(".navigation");
+const hamButton = document.querySelector(".hamburger");
 
-menubutton.addEventListener('click', () => {
-    mainnav.classList.toggle('responsive');
-    exitbutton.classList.toggle('hidden');
-    ham.classList.toggle('hidden');
+hamButton.addEventListener('click', () => {
+    nav.classList.toggle('responsive')
 }, false);
 
 // Solving resizing issue

@@ -1,0 +1,112 @@
+@media only screen and (min-width: 900px) {
+    body {
+        max-width: 1400px;
+        width: auto;
+    }
+    
+    /* HEADER SECTION */
+    header {
+        width: auto;
+        display: grid;
+        grid: 1fr / 1fr 2fr 1fr;
+        justify-content: center;
+    }
+
+    .templeHeader {
+        grid-column: 1 / 2;
+    }
+
+    .headerLogo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    nav {
+        grid-column: 2 / 3;
+		grid-row: 1 / 2;
+        margin: 70px 0 0 10px;
+    }
+
+    .navigation {
+        display: flex;
+        position: relative;
+        justify-content: flex-end;
+    }
+    
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+        font-size: 1.5rem;
+        overflow-wrap: normal;
+    }
+    
+    .navigation a {
+        text-align: center;
+        border: none;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .socialIcons {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+	}
+
+    .fb {
+        justify-self: end;
+        margin-right: 10px;
+    }
+    
+    .ig {
+        justify-self: start;
+        margin-left: 10px;
+    }
+
+    /* FEATURE SECTION */
+    .featureImg {
+        margin: auto;
+    }
+
+    .featButton {
+        right: 695px;
+    }
+
+    /* SERVICES SECTION */
+    .services {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 20px;
+    }
+
+    #specialServices {
+        margin-top: 10px;
+    }
+
+    #servicesImage {
+        grid-column: 2 / 3;
+        width: 75%;
+    }
+
+    #servicesArea {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    /* TEMPLES SECTION */
+    #temples {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #phxTemple {
+        grid-column: 1 / 2;
+        margin-right: 20px;
+    }
+
+    .templeCards {
+        grid-column: 2 / 3;
+    }
+
+}

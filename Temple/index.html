@@ -9,59 +9,68 @@
     <link rel="shortcut icon" href="images/Temple-Suites.ico">
     <title>Home | Temple Inn & Suitese</title>
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="../css/normalize.css">
 </head>
 
 <body>
 <!----------  HEADER  ---------->
-    <header id="templeHeader">
-        <img src="images/Temple-inn-suites.png" alt="Temple Inn & Suites logo" class="templeLogo">
-        <h1><span id="templeHeader">TEMPLE</span><br>
-            <span id="suitesHeader">INN & SUITES</span><br>
-        </h1>
-        <div class="navFlex">
-        <div class="socialIcons">
-            <a href="https://facebook.com" target="_blank">
-                <img src="images/temple-fb.jpg" alt="Facebook Icon" class="fbIcon">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="images/temple-ig.jpg" alt="Instagram Icon" class="igIcon">
-            </a>
-        </div>
+    <header>
+        <section class="templeHeader">
+            <section class="headerLogo">
+                <img src="images/templeLogo.png" alt="Temple Inn & Suites logo" class="templeLogo">
+                <div>
+                    <h1>TEMPLE</h1>
+                    <h2>INN & SUITES</h2>
+                </div>
+            </section>
+        </section>
+            <div class="socialIcons">
+                <div class="fb">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/temple-fb.jpg" alt="Facebook Icon" class="fbIcon">
+                </a>
+            </div>
+            <div class="ig">
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/temple-ig.jpg" alt="Instagram Icon" class="igIcon">
+                </a>
+            </div>
+            </div>
+
 <!----------  NAVIGATION  ---------->
-<nav>
-    <button class="menu">
-        <span id="ham" class="toggle-btn"> &#9776; </span>
-        <span id="xbutton" class="hidden toggle-btn"> X </span>
-    </button>
-    <ul class="navigation">
-            <li class="active"><a href="https://brandi-galvan.github.io/wdd230/temple/index.html">Home</a></li>
-            <li><a href="https://brandi-galvan.github.io/wdd230/Temple//html/reservations.html">Reservations</a></li>
-            <li><a href="https://brandi-galvan.github.io/wdd230/Temple//html/temples.html">Temples</a></li>
-            <li><a href="https://brandi-galvan.github.io/wdd230/Temple//html/services.html">Services</a></li>
-            <li><a href="https://brandi-galvan.github.io/wdd230/Temple//html/Contact.html">Contact Us</a></li>
-    </ul>
-</nav>
-</div>
+        <nav>
+            <ul class="navigation">
+                <li><a class="hamburger" href="#">&#9776;</a></li>
+                <li class="active"><a href="https://brandi-galvan.github.io/wdd230/temple/index.html">Home</a></li>
+                <li><a href="https://brandi-galvan.github.io/wdd230/Temple//html/reservations.html">Reservations</a></li>
+                <li><a href="https://brandi-galvan.github.io/wdd230/Temple//html/temples.html">Temples</a></li>
+                <li><a href="https://brandi-galvan.github.io/wdd230/Temple//html/services.html">Services</a></li>
+                <li><a href="https://brandi-galvan.github.io/wdd230/Temple//html/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
 </header>
 <!----------  MAIN SECTION  ---------->
 <main class="indexMain">
 <!----------  FEATURE SECTION  ---------->
    <section class="feature">
-    <picture>
+    <picture class="featureImg">
         <source media="(max-width: 33.9em)" srcset="images/featureSmall.jpg">
         <source media="(max-width: 829px)" srcset="images/featureMedium.jpg">
         <source media="(max-width: 1400px)" srcset="images/featureLarge.jpg">
-        <img src="images/featureXlarge.jpg" alt="Image of Temple Inn & Suites">
+        <img class="featureImgreg" src="images/featureXlarge.jpg" alt="Image of Temple Inn & Suites">
     </picture>
     <button class="featButton bookButton" type="submit" href="#">BOOK NOW</button>
        <h1 id="featHeading">Heaven on Earth</h1>
-       <p id="featPara">The Temple Inn & Suites is a hotel chain headquartered in Bethesda, MD that builds and manages specialized hotel accommodations near temple locations of The Church of Jesus Christ of Latter-day Saints around the world. The owner-operated company caters to temple workers, patrons, and their families by providing specialized services and accommodations that meet the needs of those patrons. The hotel accommodations and services are available to anyone willing to abide by the terms and policies outlined by the company. </p>
+       <p id="featPara">The Temple Inn & Suites is a hotel chain headquartered in Bethesda, MD that builds and manages specialized hotel accommodations near temple locations of The Church of Jesus Christ of Latter-day Saints around the world. <br>
+        <br>The owner-operated company caters to temple workers, patrons, and their families by providing specialized services and accommodations that meet the needs of those patrons. The hotel accommodations and services are available to anyone willing to abide by the terms and policies outlined by the company. </p>
     </section>
 
 <!----------  SERVICES SECTION  ---------->
    <section class="services">
        <img id="servicesImage" src="images/templeServices.jpg" alt="Room at Temple Inn & Suites">
+       <div id="servicesArea">
        <h2 id="specialServices">Specialized Services</h2>
        <ul>
            <li>Free access to changing rooms and bathroom facilities</li>
@@ -82,6 +91,7 @@
            <li>Family history consultation and family ordinance</li>
        </ul>
        <button class="servButton bookButton" type="submit" href="#">BOOK NOW</button>
+    </div>
    </section>
 
 <!----------  TEMPLE SECTION  ---------->
@@ -90,33 +100,48 @@
        <div id="phxTemple">
             <div id="phxInfo">
                 <picture id="phxImg">
-                    <source media="(max-width: 33.9em)" srcset="images/phxSmall.jpg">
-                    <img src="images/phxRegular.jpg" alt="Phoenix, Arizona temple">
+                    <source media="(max-width: 768px)" srcset="images/phxSmall.jpg">
+                    <source media="(min-width: 768px)" srcset="images/phxMedium.jpg">
+                    <img class="phxImgs" src="images/phxSmall.jpg" alt="Phoenix, Arizona temple">
                 </picture>
-                <p id="phxaddy">5104 W Pinnacle Peak Rd. Glendale, AZ 85310<br>917-441-8220</p><br>
-                <p id="phxServices"><strong>Services</strong></p>
-                <ul>
-                    <li>Clothing rental available</li>
-                    <li>No cafeteria available</li>
-                    <li>No patron housing available</li>
-                    <li>Distribution center nearby</li>
-                </ul>
+                <div id="phxInside">
+                    <h3>Phoenix, AZ Temple</h3>
+                    <p id="phxaddy">5104 W Pinnacle Peak Rd. Glendale, AZ 85310<br>917-441-8220</p><br>
+                    <p id="phxServices"><strong>Services</strong></p>
+                    <ul>
+                        <li>Clothing rental available</li>
+                        <li>No cafeteria available</li>
+                        <li>No patron housing available</li>
+                        <li>Distribution center nearby</li>
+                    </ul>
+                </div>    
             </div>
-            <div id="manhatWeather">
+            <div id="phxWeather">
+                <h2>Weather in Phoenix, AZ</h2>
                 <img src="#" alt="" id="weaIcon">
-                <h3><span id="currentTemp"></span> &#176;F</h3>
+                <p><span id="currentTemp"></span> &#176;F</p>
                 <p><span id="weaDesc"></span></p>
                 <p>Wind Speed: <span id="speed"></span>mph</p>
                 <p>Humidity: <span id="humidity"></span></p>
             </div>
         </div>
-    <div id="denverTemple">
-        <img src="images/denverRegular.jpg" alt="Denver, Colorado temple">
-        <p>Denver, CO</p>
-    </div>
-    <div id="mcallenTemple">
-        <img src="images/mcallenRegular.jpg" alt="McAllen, Texas temple">
-        <p>McAllen, TX</p>
+        <div class="templeCards">
+            <div id="denverTemple" class="tempCardL tempCard">
+                <img src="images/denverRegular.jpg" alt="Denver, Colorado temple">
+                <h4>Denver, CO</h4>
+            </div>
+        <div id="mcallenTemple" class="tempCardR tempCard">
+            <img src="images/mcallenRegular.jpg" alt="McAllen, Texas temple">
+            <h4>McAllen, TX</h4>
+        </div>
+        <div id="portlandTemple" class="tempCardL tempCard">
+            <img src="images/portlandRegular.jpg" alt="Portland, Oregon temple">
+            <h4>Portland, OR</h4>
+        </div>
+        <div id="memphisTemple" class="tempCardR tempCard">
+            <img src="images/memphisRegular.jpg" alt="Memphis, TN temple">
+            <h4>Memphis, TN</h4>
+        </div>
     </div>
    </section>
 
@@ -148,8 +173,6 @@
    <div class="lastUpdated">Last Updated <span id="footerDate"></span></div>
 </footer>
 <script src="js/myscripts.js"></script>
-<script src="banner.js"></script>
 <script src="weatherapi.js"></script>
-<script src="spotlight.js"></script>
 </body>
 </html>

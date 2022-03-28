@@ -2,12 +2,17 @@
     --forest: #144106;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 h1, h2, h3, h4 {
     font-family: serif;
     color: var(--forest);
 }
 
-h1 {font-size: 30px;}
+h1 {font-size: 30px; margin: 0;}
 h2 {font-size: 25px;}
 h3 {font-size: 20px;}
 
@@ -39,21 +44,33 @@ body {
     justify-content: center;
 }
 
-#templeHeader {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+header {
+    width: fit-content;
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
     border: 3px solid black;
-    margin: 0 auto;
-    align-items: center;
-    justify-items: center;
-    font-size: .8em;
-    padding: .3em;
-    margin-bottom: .2rem;
-    grid-column-gap: .2rem;
+    box-shadow: 4px 1px 20px 0px black;
 }
 
-#templeHeader h1 {
-    display: none;
+.templeHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    align-items: center;
+    position: relative;
+    margin-bottom: .2rem;
+}
+
+.templeHeader h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.headerLogo {
+    display: flex;
+    align-items: center;
+    padding: 0;
 }
 
 .templeLogo {
@@ -61,7 +78,11 @@ body {
 }
 
 .socialIcons {
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 5px;
+    margin-right: 60px;
 }
 
 .socialIcons a img {
@@ -76,18 +97,22 @@ body {
 nav {
     margin: 0 auto;
     max-width: 760px;
-}
-
-.navigation {
     list-style: none;
     padding: 0px;
     margin: 48px;
     position: absolute;
-    width: 80%;
-    left: 22px;
-    font-size: 30px;
-    top: 15%;
-    z-index: 1;
+    font-size: 45px;
+    left: 424px;
+    top: -9px;
+    z-index: 2;
+    background-color: white;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
 
 .navigation a {
@@ -95,6 +120,8 @@ nav {
     padding: 0.75rem 2vw;
     text-decoration: none;
     color: var(--forest);
+    text-align: center;
+    padding: 1rem;
 }
 
 .navigation li {
@@ -110,6 +137,18 @@ nav {
 nav ul li.active a {
     border: 2px solid black;
   }
+
+  .navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
 
 .menu {
       background-color: var(--forest);
@@ -131,14 +170,18 @@ section {
     max-width: 760px;
 }
 
+.feature {
+    margin: 0;
+}
+
 .feature picture {
     justify-content: center;
 }
 
 .featButton {
     position: absolute;
-    top: 550px;
-    right: 80px;
+    top: 302px;
+    right: 186px;
 }
 
 #featHeading {
@@ -151,13 +194,48 @@ section {
     padding-top: 10px;;
 }
 
+#servicesImage {
+    padding-top: 15px;
+    width: 65%;
+}
+
+.services button {
+    margin: 20px;
+}
+
+.services li {
+    list-style: none;
+}
+
 /* TEMPLES STYLING */
+#phxImg img {
+    width: 85%;
+    padding-top: 5px;
+}
+
+#phxTemple ul{
+    list-style: none;
+}
+
 #phxTemple {
     border: 2px solid black;
 }
 
+#phxWeather {
+    padding: 10px;
+}
+
 #denverTemple p, #mcallenTemple p {
     margin-top: 0;
+}
+
+.tempCard, #cta, footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#portlandTemple, #memphisTemple {
+    display: none;
 }
 
 /* CALL TO ACTION STYLING */
@@ -179,5 +257,6 @@ footer h2, footer p, footer a, .classFooter, .lastUpdated {
     color: white;
 }
 
-
-
+.footerLinks {
+    padding-top: 20px;
+}

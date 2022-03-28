@@ -1,20 +1,38 @@
-@media only screen and (min-width: 34em) {
+@media only screen and (min-width: 768px) {
 
-#templeHeader {
-    margin: 0 auto;
-    display: grid;
-    grid: 2fr 1fr / 1fr 2fr 2fr 1fr;
-    align-items: center;
-    justify-items: center;
-    font-size: .8em;
-    padding: 1em;
-    margin-bottom: .2rem;
-    grid-column-gap: .2rem;
+.featureImg{
+    width: 80%;
 }
 
-.socialIcons {
+.featButton {
+    top: 325px;
+    right: 326px;
+}
+
+#phxImg img {
+    width: 40%;
+}
+
+#phxInfo {
+    justify-content: center;
+}
+
+#phxInside {
+    float: right;
+    padding: 100px 35px 0 0;
+}
+
+.templeCards {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+#portlandTemple, #memphisTemple {
+    display: inherit;
+}
+
+.tempCard img {
+    width: 80%;
 }
 
 }
