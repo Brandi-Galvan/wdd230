@@ -301,7 +301,6 @@ footer h2, footer p, footer a, .classFooter, .lastUpdated {
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background-color: #f5f2e9;
     padding: 15px;
     min-width: 100%;
     max-width: 375px;
@@ -309,8 +308,20 @@ footer h2, footer p, footer a, .classFooter, .lastUpdated {
     padding: 0px;
 }
 
-.joinMain h1 {
+.reservationsMain h1 {
+    margin-top: 35px;
     text-align: center;
+    font-weight: 900;
+}
+
+#guestInfo select {
+    background-color:#eee;
+    font-size:108%;
+    width:300px;
+    height:36px;
+    border:1px solid #ccc;
+    -moz-border-radius:6px;
+    border-radius:6px
 }
 
 /* form section */
@@ -324,7 +335,7 @@ form {
 
 form fieldset {
     margin: 2rem 0;
-    border: 5px groove #a6c09bbf;
+    border: 1px sold black;
     border-radius: 10px;
     padding: .5rem 2%;
     max-width: 25rem;
@@ -332,7 +343,8 @@ form fieldset {
 }
 
 form legend {
-    color: #2f3e46;
+    color: var(--forest);
+    font-size: 2em;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
@@ -340,7 +352,6 @@ form legend {
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: #2f3e46;
     font-size: .8rem;
 }
 
@@ -373,11 +384,12 @@ form label.sbs:hover {
 
 form input.submitBtn {
     border: none;
-    background-color: #d8c8ab;
-    color: #2f3e46;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 1rem;
     margin: 0 0 2rem 2%;
+    font-size: 20px;
     width: 96%;
     max-width: 20rem;
     transition-duration: .5s;
@@ -385,7 +397,8 @@ form input.submitBtn {
 
 form input.submitBtn:hover {
     cursor: pointer;
-    background-color: #a6c09b;
+    background-color: var(--forest);
+    transition-duration: .5s;
 }
 
 form label.top input:required {
@@ -396,57 +409,29 @@ form label.top input:required:valid {
     border-left: #a6c09b solid 6px;
 }
 
-.npCost {
-    background-color: #a6c09b;
-    padding: 0.25rem 1rem;
-    margin-left: 0.8rem;
-    border-radius: 8px;
-}
-
-.bronzeCost {
-    background-color: #e0984f;
-    color: #2f3e46;
-    padding: 0.25rem 1rem;
-    margin-left: 0.8rem;
-    border-radius: 8px;
-}
-
-.silverCost {
-    background-color: #C0C0C0;
-    padding: 0.25rem 1rem;
-    margin-left: 0.8rem;
-    border-radius: 8px;
-}
-
-.goldCost {
-    background-color: #FFD700;
-    padding: 0.25rem 1rem;
-    margin-left: 0.8rem;
-    border-radius: 8px;
-}
-
 /* thank you page */
-.thankyouMain {
+.thanksMain {
+    padding: 1em;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    padding: 1rem;
 }
 
-.thankyouMain h1 {
-    font-size: 3rem;
+.thanksMain h1 {
+    margin-top: 35px;
     text-align: center;
-    line-height: 1;
 }
 
-.thankyouMain img {
+.thanksMain img {
     max-width: 100%;
 }
 
-.thankyouMain div {
+.thanksMain div {
     padding: 0rem 8rem 0rem 8rem;
 }
 
-.thankyouMain p {
+.thanksMain p {
     text-align: center;
     font-size: 1rem;
 }
