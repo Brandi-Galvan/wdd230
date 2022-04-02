@@ -270,7 +270,13 @@ footer h2, footer p, footer a, .classFooter, .lastUpdated {
 }
 
 /* ***** TEMPLES PAGE ***** */
-.templePage {
+.templesPage {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.templesPage section {
+    border: 1px solid black;
 }
