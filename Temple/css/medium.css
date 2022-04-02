@@ -4,11 +4,6 @@
     width: 80%;
 }
 
-.featButton {
-    top: 325px;
-    right: 326px;
-}
-
 #phxImg img {
     width: 40%;
 }
@@ -34,5 +29,29 @@
 .tempCard img {
     width: 80%;
 }
+
+/* ***** TEMPLES PAGE ***** */
+.templesPage section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(9, 1fr);
+}
+
+.templesPage img {
+    grid-column: 1 / 2;
+    grid-row: 1 / 11;
+    width: 100%;
+}
+
+.templesPage h2, .templesPage p {
+    grid-column: 2 / 3;
+    line-height: 1em;
+}
+
+p.templesPage:nth-child(2) {
+    margin-top: 5px;
+}
+
+
 
 }

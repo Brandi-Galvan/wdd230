@@ -69,10 +69,6 @@
         margin: auto;
     }
 
-    .featButton {
-        right: 695px;
-    }
-
     /* SERVICES SECTION */
     .services {
         display: grid;
