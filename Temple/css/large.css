@@ -6,7 +6,7 @@
     
     /* HEADER SECTION */
     header {
-        width: auto;
+        width: 100%;
         display: grid;
         grid: 1fr / 1fr 2fr 1fr;
         justify-content: center;
