@@ -51,7 +51,7 @@ header {
     display: flex;
     flex-direction: inherit;
     border: 3px solid black;
-    box-shadow: 4px 1px 20px 0px black;
+    box-shadow: 0px 3px 10px 0px black;
 }
 
 .templeHeader {
@@ -350,9 +350,12 @@ form legend {
 }
 
 form label.top, form div {
-    display: block;
-    padding-top: 1rem;
     font-size: .8rem;
+    width: 102%;
+}
+
+form label.top {
+    margin-top: 6px;
 }
 
 form label.top input, form label.top select, textarea {
@@ -374,8 +377,8 @@ textarea {
 
 form label.sbs {
     display: block;
-    color: #2f3e46;
     font-weight: bold;
+    margin-top: 6px;
 }
 
 form label.sbs:hover {
@@ -389,9 +392,9 @@ form input.submitBtn {
     border-radius: 5px;
     padding: 1rem;
     margin: 0 0 2rem 2%;
-    font-size: 20px;
+    font-size: 24px;
     width: 96%;
-    max-width: 20rem;
+    max-width: 27rem;
     transition-duration: .5s;
 }
 
