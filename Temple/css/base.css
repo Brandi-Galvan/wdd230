@@ -295,3 +295,158 @@ footer h2, footer p, footer a, .classFooter, .lastUpdated {
     margin: 20px;
     padding: 35px;
 }
+
+/* ***** RESERVATIONS PAGE ***** */
+.reservationsMain {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f2e9;
+    padding: 15px;
+    min-width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.joinMain h1 {
+    text-align: center;
+}
+
+/* form section */
+
+form {
+    align-self: center;
+    text-align: left;
+    min-width: 18rem;
+    max-width: 90%;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 5px groove #a6c09bbf;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    max-width: 25rem;
+    padding-inline-end: 2rem;
+}
+
+form legend {
+    color: #2f3e46;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #2f3e46;
+    font-size: .8rem;
+}
+
+form label.top input, form label.top select, textarea {
+    -webkit-appearance:none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1)
+}
+
+textarea {
+    overflow: auto;
+}
+
+form label.sbs {
+    display: block;
+    color: #2f3e46;
+    font-weight: bold;
+}
+
+form label.sbs:hover {
+    cursor: pointer;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #d8c8ab;
+    color: #2f3e46;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    transition-duration: .5s;
+}
+
+form input.submitBtn:hover {
+    cursor: pointer;
+    background-color: #a6c09b;
+}
+
+form label.top input:required {
+    border-left: #8e1313 solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: #a6c09b solid 6px;
+}
+
+.npCost {
+    background-color: #a6c09b;
+    padding: 0.25rem 1rem;
+    margin-left: 0.8rem;
+    border-radius: 8px;
+}
+
+.bronzeCost {
+    background-color: #e0984f;
+    color: #2f3e46;
+    padding: 0.25rem 1rem;
+    margin-left: 0.8rem;
+    border-radius: 8px;
+}
+
+.silverCost {
+    background-color: #C0C0C0;
+    padding: 0.25rem 1rem;
+    margin-left: 0.8rem;
+    border-radius: 8px;
+}
+
+.goldCost {
+    background-color: #FFD700;
+    padding: 0.25rem 1rem;
+    margin-left: 0.8rem;
+    border-radius: 8px;
+}
+
+/* thank you page */
+.thankyouMain {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.thankyouMain h1 {
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1;
+}
+
+.thankyouMain img {
+    max-width: 100%;
+}
+
+.thankyouMain div {
+    padding: 0rem 8rem 0rem 8rem;
+}
+
+.thankyouMain p {
+    text-align: center;
+    font-size: 1rem;
+}

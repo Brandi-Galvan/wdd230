@@ -6,11 +6,11 @@
     <meta name="author" content="Brandi Glover">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Reservation page for Temple Inn & Suites">
-    <link rel="shortcut icon" href="images/Temple-Suites.ico">
+    <link rel="shortcut icon" href="../images/Temple-Suites.ico">
     <title>Reservations | Temple Inn & Suitese</title>
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/medium.css">
+    <link rel="stylesheet" href="../css/large.css">
     <link rel="stylesheet" href="../css/normalize.css">
 </head>
 
@@ -19,7 +19,7 @@
     <header>
         <section class="templeHeader">
             <section class="headerLogo">
-                <img src="images/templeLogo.png" alt="Temple Inn & Suites logo" class="templeLogo">
+                <img src="../images/templeLogo.png" alt="Temple Inn & Suites logo" class="templeLogo">
                 <div>
                     <h1>TEMPLE</h1>
                     <h2>INN & SUITES</h2>
@@ -29,12 +29,12 @@
             <div class="socialIcons">
                 <div class="fb">
                 <a href="https://facebook.com" target="_blank">
-                    <img src="images/temple-fb.jpg" alt="Facebook Icon" class="fbIcon">
+                    <img src="../images/temple-fb.jpg" alt="Facebook Icon" class="fbIcon">
                 </a>
             </div>
             <div class="ig">
                 <a href="https://instagram.com" target="_blank">
-                    <img src="images/temple-ig.jpg" alt="Instagram Icon" class="igIcon">
+                    <img src="../images/temple-ig.jpg" alt="Instagram Icon" class="igIcon">
                 </a>
             </div>
             </div>
@@ -53,7 +53,78 @@
 </header>
 <!----------  MAIN SECTION  ---------->
 <main class="reservationsMain">
+    <h1>Join the Gilbert Chamber</h1>
+        <form method="get" action="thanks.html">
+            <div class="memGrid">
+            <fieldset id="appInfo">
+                <legend>Applicant Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Email <input type="email" name="email" placeholder="business.professional@gmail.com" required></label>
+                <label class="top">Phone Number <input type="tel" name="phone" placeholder="1235556789"></label>
+            </fieldset>
 
+            <fieldset id="busInfo">
+                <legend>Business Information</legend>
+                <label class="top">Business Name* <input type="text" name="business" required></label>
+                <label class="top">Business Position <input type="text" name="title" pattern="^[a-zA-Z- ].{7,}$" ></label>
+                <label class="top">Business Description <br><textarea name="bizDescription"></textarea></label>
+            </fieldset>
+            <fieldset id="memInfo">
+                <legend>Chamber Membership Levels</legend>
+                <label class="sbs"><input type="radio" name="membership" value="nonprofit">Non Profit<span class="npCost">FREE</span></label>
+                <div class="membershipLevels">
+                    <ul class="levelDescription">
+                        <li>Business and categorical listing on our website to include business name, address, and phone number</li>
+                        <li>Special members-only pricing to Chamber events</li>
+                        <li>Subscription to Chamber's weekly e-mail communication</li>
+                        <li>Business referrals to help your business grow</li>
+                        <li>Membership decal for display at your place of business</li>
+                        <li>Chamber's logo for use in your advertising and/or website</li>
+                        <li>Business counseling provided by SCORE/SBDC</li>
+                        <li>Ability to post discounts and job postings on our website</li>
+                        <li>Ability to submit member news and announcements</li>
+                    </ul>
+                </div>
+                <label class="sbs"><input type="radio" name="membership" value="bronze">Bronze Membership<span class="bronzeCost">$520</span></label>
+                <div class="membershipLevels">Non Profit benefits, PLUS:
+                    <ul class="levelDescription">
+                        <li>Expanded business listing on our website to include website and map links, hours of operation, name of representative, two slideshow photos and up to eight keywords/phrases</li>
+                        <li>Social media links may include Facebook, Twitter, Instagram, LinkedIn and YouTube</li>
+                        <li>Referral team membership (upon availability)</li>
+                        <li>Ribbon cutting or grand opening event upon joining</li>
+                        <li>U.S. Chamber of Commerce membership and discounts</li>
+                        <li>Ability to purchase a multi-business membership</li>
+                        <li>Ability to purchase a second category listing ($50)</li>
+                    </ul>
+                </div>
+                <label class="sbs"><input type="radio" name="membership" value="silver">Silver Membership<span class="silverCost">$835</span></label>
+                <div class="membershipLevels">Bronze and Non Profit benefits, PLUS:
+                    <ul class="levelDescription">
+                        <li>Expanded business listing on website, to inlude logo, three additional slideshow photos and seven keywords/phrases</li>
+                        <li>Business card headshot in representative field</li>
+                        <li>URL link to consumber-based review website</li>
+                        <li>Second category listing on our website</li>
+                        <li>One complimentary set at each Good Government event</li>
+                        <li>Comprehensive membership list sent electronically each year</li>
+                        <li>Placement of business cards in Chamber lobby</li>
+                    </ul>
+                </div>
+                <label class="sbs"><input type="radio" name="membership" value="gold">Gold Membership<span class="goldCost">$4,600</span></label>
+                <div class="membershipLevels">Silver, Bronze, and Non Profit benefits, PLUS:
+                    <ul class="levelDescription">
+                        <li>Logo displayed in the Chamber's weekly email communication</li>
+                        <li>Twenty-five word description on our website</li>
+                        <li>One rotating banner advertisement on our website</li>
+                        <li>One rotating advertisement on the Chamber lobby monitor</li>
+                    </ul>
+                </div>
+            </fieldset>
+            </div>
+            <div id="time" hidden></div>
+            <input type="hidden" id="joinDate" name="joinDate" value="">
+            <input type="submit" value="Become a GCC Member" class="submitBtn">
+        </form>
 
 
 
@@ -71,7 +142,7 @@
 
 <!----------  FOOTER  ---------->
 <footer>
-  <img src="images/templeLogo-W.png" id="footerImg" alt="footerLogo">  
+  <img src="../images/templeLogo-W.png" id="footerImg" alt="footerLogo">  
   <div class="templeFooter">
       <h2>Temple Inn & Suites</h2>
       <p>6900 River Rd, Bethesda, MD 20817</p>
@@ -79,17 +150,17 @@
       <p>book@templesuites.com</p>
    </div>
    <div class="footerLinks">
-       <p><a href="#">CONTACT</a>
-        <a href="#">SERVICES</a>
-        <a href="#">TEMPLES</a>
-        <a href="#">RESERVATIONS</a>
+       <p><a href="https://brandi-galvan.github.io/wdd230/Temple//html/contact.html">CONTACT</a>
+        <a href="https://brandi-galvan.github.io/wdd230/Temple//html/services.html">SERVICES</a>
+        <a href="https://brandi-galvan.github.io/wdd230/Temple//html/temples.html">TEMPLES</a>
+        <a href="https://brandi-galvan.github.io/wdd230/Temple//html/reservations.html">RESERVATIONS</a>
     </p>
    </div>
    <div id="templeMap"></div>
    <div class="classFooter">&copy; <span id="currentyear"></span> | Temple Inn & Suites | WDD 230 | Brandi Glover</div>
    <div class="lastUpdated">Last Updated <span id="footerDate"></span></div>
 </footer>
-<script src="js/myscripts.js"></script>
+<script src="../js/myscripts.js"></script>
 <script src="weatherapi.js"></script>
 </body>
 </html>
