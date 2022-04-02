@@ -1,7 +1,6 @@
-const requestURL = 'https://brandi-galvan.github.io/wdd230/temple/data/data.json';
+const requestURL = 'https://brandi-galvan.github.io/wdd230/Temple/data/data.json';
 
-const cards = document.querySelector('.member-cards');
-const lists = document.querySelector('.member-list');
+const cards = document.querySelector('.temple-cards');
 
 fetch(requestURL)
     .then(function (response) {
@@ -9,84 +8,53 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         console.table(jsonObject);
-        const members = jsonObject['members'];
-        members.forEach(displayBusiness);
+        const temples = jsonObject['temples'];
+        temples.forEach(displayTemples);
     });
 
-    function displayBusiness(local) {
+    function displayTemples(lds) {
         //variables 
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
         let pic = document.createElement('img');
         let addr = document.createElement('p');
         let tel = document.createElement('p');
-        let website = document.createElement('p')
+        let email = document.createElement('p');
+        let serv = document.createElement('p');
+        let hist = document.createElement('p');
+        let bap = document.createElement('p');
+        let endow = document.createElement('p');
+        let init = document.createElement('p');
+        let clos = document.createElement('p');
 
         //text
-        h2.textContent = `${local.name}`;
-        addr.textContent = `Address: ${local.address}`;
-        tel.textContent = `Phone: ${local.phone}`;
-        website.innerHTML = `Website: <a href="${local.website}">${local.website}</a>`;
+        h2.textContent = `${lds.name}`;
+        addr.textContent = `Address: ${lds.address}`;
+        tel.textContent = `Phone: ${lds.phone}`;
+        email.textContent = `Email: ${lds.email}`;
+        serv.textContent = `Services: ${lds.services}`;
+        hist.textContent = `History: ${lds.history}`;
+        bap.textContent = `Baptisms Schedule: ${lds.bapSched}`;
+        endow.textContent = `Endowment Schedule: ${lds.endowSched}`;
+        init.textContent = `Initiatory Schedule: ${lds.initiatorySched}`;
+        clos.textContent = `Temple Closures: ${lds.templeClosure}`;
 
-        //image
-        pic.setAttribute('src', local.logo);
+        //images
+        pic.setAttribute('src', `${lds.picture}`);
         pic.setAttribute('loading', 'lazy');
-        pic.setAttribute('alt', `${local.name} logo`);
+        pic.setAttribute('alt', `${lds.name} picture`);
 
-        card.appendChild(h2);
-        card.appendChild(tel);
-        card.appendChild(addr);
-        card.appendChild(website);
         card.appendChild(pic);
+        card.appendChild(h2);
+        card.appendChild(addr);
+        card.appendChild(tel);
+        card.appendChild(email);
+        card.appendChild(serv);
+        card.appendChild(hist);
+        card.appendChild(bap);
+        card.appendChild(endow);
+        card.appendChild(init);
+        card.appendChild(clos);
 
         cards.prepend(card);
-    }
-
-
-fetch(requestURL)
-    .then(function (response) {
-        return response.json();
-    })
-    .then(function (jsonObject) {
-        console.table(jsonObject);
-        const members = jsonObject['members'];
-        members.forEach(displayList);
-    });
-
-    function displayList (locallist) {
-        //member information displayed as list
-        let row = document.createElement('tr');
-        let name = document.createElement('td');
-        let address = document.createElement('td');
-        let tel = document.createElement('td');
-        let website = document.createElement('td');
-
-        name.textContent = `${locallist.name}`;
-        address.textContent = `${locallist.address}`;
-        tel.textContent = `${locallist.phone}`;
-        website.textContent = `${locallist.website}`;
-
-        row.appendChild(name);
-        row.appendChild(address);
-        row.appendChild(tel);
-        row.appendChild(website);
-
-        lists.appendChild(row)
-    }
-
-    //View Functions for list and grid
-    function gridview() {
-        var grid = document.querySelector(".member-cards");
-        grid.style.display = "grid";
-
-        var list = document.querySelector(".mem-listTable");
-        list.style.display = "none";
-    }
-
-    function listview() {
-        var grid = document.querySelector(".member-cards");
-        grid.style.display = "none";
-
-        var list = document.querySelector(".mem-listTable");
-        list.style.display = "table";
     }

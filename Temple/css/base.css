@@ -268,3 +268,9 @@ footer h2, footer p, footer a, .classFooter, .lastUpdated {
 .footerLinks {
     padding-top: 20px;
 }
+
+/* ***** TEMPLES PAGE ***** */
+.templePage {
+    display: flex;
+    flex-direction: column;
+}

@@ -2,6 +2,7 @@
     "temples": [
       {
         "name": "Phoenix, Arizona Temple",
+        "picture": "../images/phoenixAZ.webp",
         "address": "5104 W Pinnacle Peak Rd. Glendale, AZ 85310",
         "phone": "(623) 474-9500",
         "email": "phoen-off@churchofjesuschrist.org",
@@ -14,6 +15,7 @@
       },
       {
         "name": "Denver, Colorado Temple",
+        "picture": "../images/denverCO.webp",
         "address": "2001 E Phillips Circle Centennial, CO 80122",
         "phone": "(303) 730-0220",
         "email": "Denve-off@churchofjesuschrist.org",
@@ -26,6 +28,7 @@
       },
       {
         "name": "McAllen, Texas Temple",
+        "picture": "../images/mcallenTX.webp",
         "address": "300 W Trenton Road McAllen, Texas",
         "phone": "(000) 000-0000",
         "email": "mcall-off@churchofjesuschrist.org",
@@ -38,6 +41,7 @@
       },
       {
         "name": "Portland, Oregon Temple",
+        "picture": "../images/portlandOR.webp",
         "address": "13600 Kruse Oaks Blvd Lake Oswego, OR 97035",
         "phone": "(503) 639-7066",
         "email": "portl-off@churchofjesuschrist.org",
@@ -50,6 +54,7 @@
       },
       {
         "name": "Memphis, Tennessee Temple",
+        "picture": "../images/memphisTN.webp",
         "address": "4199 Kirby-Whitten Pkwy Bartlett, TN 38135",
         "phone": "(901) 379-0202",
         "email": "memph-off@churchofjesuschrist.org",
