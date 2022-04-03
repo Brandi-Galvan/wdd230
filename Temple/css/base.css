@@ -477,6 +477,7 @@ form label.top input:required:valid {
 
 .servicesGrid ul {
     margin-top: 20px;
+    line-height:normal;
 }
 
 /* ***** MISSIONARIES PAGE ***** */
@@ -597,4 +598,27 @@ textarea {
 
 .contactForm label.top input:required:valid {
     border-left: #a6c09b solid 6px;
+}
+
+/* ***** RECEPTION PAGE ***** */
+.receptionMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.receptionMain h1 {
+    margin-top: 35px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.weddingPkg, .weddingPkg p {
+    margin-top:25px;
+}
+
+.weddingPkg ul {
+    list-style: none;
 }

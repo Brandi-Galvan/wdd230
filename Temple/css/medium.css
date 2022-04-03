@@ -110,6 +110,10 @@ p.templesPage:nth-child(2) {
     margin-top: 5px;
 }
 
+/* ***** SERVICES PAGE ***** */
+.servicesGrid ul {
+    line-height: 2rem;
+}
 
 
 }

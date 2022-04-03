@@ -121,4 +121,30 @@ form input.submitBtn {
         display: block;
     }
 
+/* ***** SERVICES PAGE ***** */
+.servicesGrid ul {
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    margin-left: -35px;
+}
+
+#services1 h2, #services2 h2 {
+    font-size: 34px;
+    margin-left: -55px;
+}
+
+/* ***** MISSIONARY PAGE ***** */
+.missionaryGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 55px;
+}
+
+/* ***** RECEPTION PAGE ***** */
+.weddingPkg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 65px;
+}
+
 }
