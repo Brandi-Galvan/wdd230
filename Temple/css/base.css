@@ -254,6 +254,14 @@ footer h2, footer p, footer a, .classFooter, .lastUpdated {
     padding-top: 20px;
 }
 
+.footerLinks p {
+    font-size: 12px;
+}
+
+.footerLinks a {
+    padding: 0 6px;
+}
+
 /* ***** TEMPLES PAGE ***** */
 .templesMain {
     display: block;
