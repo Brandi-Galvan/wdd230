@@ -3,6 +3,10 @@
         max-width: 1400px;
         width: auto;
     }
+
+    section {
+        max-width: 1120px;
+    }
     
     /* HEADER SECTION */
     header {
@@ -87,6 +91,34 @@ form input.submitBtn {
 }
 
     /* TEMPLES SECTION */
+    .templesMain {
+        display: flex;
+        flex-direction: column;
+    }
 
+    .templesPage {
+        display: block;
+        line-height: 1.5em;
+        width: 80%;
+    }
+
+    .temple-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 100px;
+    }
+
+    .templesPage img {
+        width: 80%;
+        margin-left: -20px;
+    }
+    
+    .templesPage section {
+        border: 1px solid black;
+        box-shadow: 2px 2px 7px 0px black;
+        margin: 20px;
+        padding: 35px;
+        display: block;
+    }
 
 }

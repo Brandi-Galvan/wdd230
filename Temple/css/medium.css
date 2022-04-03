@@ -90,18 +90,20 @@
 .templesPage section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(9, 1fr);
+    grid-template-rows: repeat(9, .5fr);
 }
 
 .templesPage img {
     grid-column: 1 / 2;
     grid-row: 1 / 11;
     width: 100%;
+    margin-left: -20px;
 }
 
 .templesPage h2, .templesPage p {
     grid-column: 2 / 3;
     line-height: 1em;
+    font-size: 1em;
 }
 
 p.templesPage:nth-child(2) {
