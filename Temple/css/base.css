@@ -72,10 +72,10 @@ header {
 
 .templeHeader h1 {
     margin: 0;
-    font-size: 2em;
+    font-size: 1.7em;
 }
 .templeHeader h2 {
-    font-size: 19px;
+    font-size: 15px;
 }
 
 .headerLogo {
@@ -85,7 +85,7 @@ header {
 }
 
 .templeLogo {
-    height: 120px;
+    height: 90px;
 }
 
 .socialIcons {
@@ -105,7 +105,7 @@ header {
 
 /* ***** NAVIGATION STYLING ***** */
 nav {
-    margin-top: 41px;
+    margin: 27px 7px 0 0px;
 }
 
 nav ul {
@@ -227,6 +227,10 @@ section {
 
 #denverTemple p, #mcallenTemple p {
     margin-top: 0;
+}
+
+#denverTemple img, #mcallenTemple img {
+    width: 70%;
 }
 
 .tempCard, #cta, footer {

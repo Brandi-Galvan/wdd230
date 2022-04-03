@@ -9,6 +9,9 @@
 .templeHeader h2 {
     font-size: 21px;
 }
+.templeLogo {
+    height: 120px;
+}
 
 /*Feature Section*/
 .featureImg{
