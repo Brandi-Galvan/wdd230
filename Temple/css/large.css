@@ -76,8 +76,15 @@
         margin: auto;
     }
 
-    /* SERVICES SECTION */
+    /* RESERVATION SECTION */
+.reserveGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
+form input.submitBtn {
+    margin: 0px 0 0 250px;
+}
 
     /* TEMPLES SECTION */
 
