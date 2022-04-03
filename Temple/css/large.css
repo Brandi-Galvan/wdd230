@@ -24,8 +24,13 @@
     nav {
         grid-column: 2 / 3;
 		grid-row: 1 / 2;
-        margin: 70px 0 0 10px;
+        margin: 38px 0 0 10px;
     }
+
+    nav ul {
+        padding: 0px 0px 0px 72px;
+    }
+    
 
     .navigation {
         display: flex;
@@ -45,13 +50,11 @@
         border: none;
     }
 
-    .navigation li:first-child {
-        display: none;
-    }
 
     .socialIcons {
         grid-column: 3 / 4;
         grid-row: 1 / 2;
+        margin-right: 60px;
 	}
 
     .fb {
@@ -64,58 +67,19 @@
         margin-left: 10px;
     }
 
+    .menu {
+        display: none;
+    }
+
     /* FEATURE SECTION */
     .featureImg {
         margin: auto;
     }
 
     /* SERVICES SECTION */
-    .services {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-top: 20px;
-    }
 
-    #specialServices {
-        margin-top: 10px;
-    }
-
-    #servicesImage {
-        grid-column: 2 / 3;
-        width: 75%;
-    }
-
-    #servicesArea {
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
-    }
 
     /* TEMPLES SECTION */
-    #temples {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
 
-    #phxTemple {
-        grid-column: 1 / 2;
-        margin-right: 20px;
-    }
-
-    .templeCards {
-        grid-column: 2 / 3;
-    }
-
-    #phxImg img {
-        width: 87%;
-    }
-    
-    #phxInfo {
-        justify-content: center;
-    }
-    
-    #phxInside {
-        float: right;
-        padding: 100px 35px 0 0;
-    }
 
 }
