@@ -53,20 +53,17 @@
 </header>
 <!----------  MAIN SECTION  ---------->
 <main class="contactMain">
-
-
-
-
-
-
-
-
-
-<!----------  CALL TO ACTION SECTION  ---------->
-   <section id="cta">
-       <h3>Find a Temple Inn & Suites</h3>
-       <button class="ctaButton bookButton" type="submit" href="#">NEAR YOU</button>
-   </section>
+    <h1>Contact us for more information</h1>
+        <form method="get" action="thanks.html" class="contactForm">
+            <fieldset id="contactInfo">
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="business.professional@gmail.com" required></label>
+                <label class="top">Phone Number* <input type="tel" name="phone" placeholder="1235556789" required></label>
+                <label class="top">Questions or Comments <br><textarea name="guestComments"></textarea></label>
+            </fieldset>
+            <input type="submit" value="Contact Us" class="submitBtn">
+        </form>
 </main>
 
 <!----------  FOOTER  ---------->

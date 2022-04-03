@@ -502,26 +502,102 @@ form label.top input:required:valid {
     margin-top: 30px;
 }
 
-/* ***** RECEPTION PAGE ***** */
-.receptionMain {
+/* ***** CONTACT US PAGE ***** */
+.contactMain {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.receptionImg {
-    padding-top: 20px;
+.contactMain h1 {
+    margin-top: 35px;
+    text-align: center;
+    font-weight: 900;
 }
 
-.receptionDiv {
+/* form section */
+
+.contactForm {
+    align-self: center;
     text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    min-width: 23rem;
+    max-width: 90%;
+    border: none;
 }
 
-.receptionDiv p {
-    padding-top: 20px;
+.contactForm fieldset {
+    margin: 2rem 0;
+    padding: .5rem 2%;
+    max-width: 25rem;
+    padding-inline-end: 2rem;
+    border: none;
+}
+
+.contactForm legend {
+    color: var(--forest);
+    font-size: 2em;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+.contactForm label.top, form div {
+    font-size: .8rem;
+    width: 102%;
+}
+
+.contactForm label.top {
+    margin-top: 6px;
+}
+
+.contactForm label.top input, form label.top select, textarea {
+    -webkit-appearance:none;
+    display: block;
+    font-size: 1rem;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1)
+}
+
+textarea {
+    overflow: auto;
+}
+
+.contactForm label.sbs {
+    display: block;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+.contactForm label.sbs:hover {
+    cursor: pointer;
+}
+
+.contactForm input.submitBtn {
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 0 0 2rem 2%;
+    font-size: 24px;
+    width: 96%;
+    max-width: 27rem;
+    transition-duration: .5s;
+}
+
+.contactForm input.submitBtn:hover {
+    cursor: pointer;
+    background-color: var(--forest);
+    transition-duration: .5s;
+}
+
+.contactForm label.top input:required {
+    border-left: #8e1313 solid 6px;
+}
+
+.contactForm label.top input:required:valid {
+    border-left: #a6c09b solid 6px;
 }
