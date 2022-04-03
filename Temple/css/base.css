@@ -478,3 +478,42 @@ form label.top input:required:valid {
     line-height: 30px;
 }
 
+.servicesGrid ul {
+    margin-top: 20px;
+}
+
+/* ***** MISSIONARIES PAGE ***** */
+.missionariesMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.missionaryImg {
+    padding-top: 20px;
+}
+
+/* ***** RECEPTION PAGE ***** */
+.receptionMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.receptionImg {
+    padding-top: 20px;
+}
+
+.receptionDiv {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.receptionDiv p {
+    padding-top: 20px;
+}
