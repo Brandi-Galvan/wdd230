@@ -262,6 +262,10 @@ footer h2, footer p, footer a, .classFooter, .lastUpdated {
     padding: 0 6px;
 }
 
+#templeMap {
+    margin-top: 15px;
+}
+
 /* ***** TEMPLES PAGE ***** */
 .templesMain {
     display: block;
