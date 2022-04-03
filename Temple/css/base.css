@@ -494,6 +494,14 @@ form label.top input:required:valid {
     padding-top: 20px;
 }
 
+.missionaryGrid {
+    margin: 50px;
+}
+
+.missionaryGrid Div {
+    margin-top: 30px;
+}
+
 /* ***** RECEPTION PAGE ***** */
 .receptionMain {
     display: flex;
