@@ -40,6 +40,10 @@
         display: flex;
         position: relative;
         justify-content: flex-end;
+        margin: auto;
+        width: 100%;
+        left: 48px;
+        top: 2%;
     }
     
     .navigation li {

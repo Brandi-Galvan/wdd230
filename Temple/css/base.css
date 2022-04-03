@@ -138,13 +138,16 @@ nav ul li.active a {
     border: 2px solid black;
   }
 
-.navigation li {
-    display: none;
-}
-
-.responsive li {
-    display: block;
-    font-size: 1rem;
+.navigation {
+    list-style: none;
+    padding: 0px;
+    margin: 48px;
+    position: absolute;
+    width: 80%;
+    left: 22px;
+    font-size: 1em;
+    top: 15%;
+    z-index: 1;
 }
 
 .menu {
@@ -159,6 +162,23 @@ nav ul li.active a {
 
 .hidden {
     display: none;
+}
+
+.responsive li {
+	display: block;
+}
+
+.responsive ul {
+    width: 100%;
+}
+
+.responsive a {
+    background-color: white;
+    color: black;
+}
+
+hr {
+    border-top: 1px solid #f5f2e9;
 }
 
 /* ***** BODY STYLING ***** */
