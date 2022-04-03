@@ -105,4 +105,17 @@
         grid-column: 2 / 3;
     }
 
+    #phxImg img {
+        width: 87%;
+    }
+    
+    #phxInfo {
+        justify-content: center;
+    }
+    
+    #phxInside {
+        float: right;
+        padding: 100px 35px 0 0;
+    }
+
 }

@@ -71,39 +71,44 @@
    <section class="services">
        <img id="servicesImage" src="images/templeServices.jpg" alt="Room at Temple Inn & Suites">
        <div id="servicesArea">
-       <h2 id="specialServices">Specialized Services</h2>
-       <ul>
-           <li>Free access to changing rooms and bathroom facilities</li>
-           <li>A playroom and low-cost, short-term babysitting services</li>
-           <li>Long-term stay accommodations in kitchenette suites </li>
-           <li>Temple history themed reception and sitting area</li>
-           <li>A customizable wedding reception hall</li>
-           <li>A family search center</li>
-       </ul>
-       <h2 id="freeAmentities">Free Amentities</h2>
-       <ul>
-           <li>Breakfast</li>
-           <li>Exercise/workout room</li>
-           <li>Indoor pool</li>
-           <li>WiFi high-speed internet access and smart Tvs</li>
-           <li>Parking</li>
-           <li>Temple shuttle</li>
-           <li>Family history consultation and family ordinance</li>
-       </ul>
-       <button class="servButton bookButton" type="submit" href="#">BOOK NOW</button>
+        <div id="homeServices">
+           <h2 id="specialServices">Specialized Services</h2>
+            <ul>
+                <li>Free access to changing rooms and bathroom facilities</li>
+                <li>A playroom and low-cost, short-term babysitting services</li>
+                <li>Long-term stay accommodations in kitchenette suites </li>
+                <li>Temple history themed reception and sitting area</li>
+                <li>A customizable wedding reception hall</li>
+                <li>A family search center</li>
+            </ul>
+        </div>
+        <div id="homeAmenities">
+            <h2 id="freeAmentities">Free Amentities</h2>
+            <ul>
+                <li>Breakfast</li>
+                <li>Exercise/workout room</li>
+                <li>Indoor pool</li>
+                <li>WiFi high-speed internet access and smart Tvs</li>
+                <li>Parking</li>
+                <li>Temple shuttle</li>
+                <li>Family history consultation and family ordinance</li>
+            </ul>
+        </div>
     </div>
+    <button class="servButton bookButton" type="submit" href="#">BOOK NOW</button>
    </section>
 
 <!----------  TEMPLE SECTION  ---------->
    <section id="temples">
        <h1 id="templeHeading">Suites by Temples</h1>
        <div id="phxTemple">
-            <div id="phxInfo">
+                <div id="gridImg">
                 <picture id="phxImg">
                     <source media="(max-width: 768px)" srcset="images/phxSmall.jpg">
                     <source media="(min-width: 768px)" srcset="images/phxMedium.jpg">
                     <img class="phxImgs" src="images/phxSmall.jpg" alt="Phoenix, Arizona temple">
                 </picture>
+                </div>
                 <div id="phxInside">
                     <h3>Phoenix, AZ Temple</h3>
                     <p id="phxaddy">5104 W Pinnacle Peak Rd. Glendale, AZ 85310<br>917-441-8220</p><br>
@@ -115,14 +120,12 @@
                         <li>Distribution center nearby</li>
                     </ul>
                 </div>    
-            </div>
-            <div id="phxWeather">
+            <div class="phxWeather">
                 <h2>Weather in Phoenix, AZ</h2>
                 <img src="#" alt="" id="weaIcon">
-                <p><span id="currentTemp"></span> &#176;F</p>
+                <h3><span id="currentTemp"></span> &#176;F</h3>
                 <p><span id="weaDesc"></span></p>
-                <p>Wind Speed: <span id="speed"></span>mph</p>
-                <p>Humidity: <span id="humidity"></span></p>
+                <p>Humidity: <span id="humidity"></span>%</p>
             </div>
         </div>
         <div class="templeCards">
@@ -174,6 +177,6 @@
    <div class="lastUpdated">Last Updated <span id="footerDate"></span></div>
 </footer>
 <script src="js/myscripts.js"></script>
-<script src="weatherapi.js"></script>
+<script src="js/weather.js"></script>
 </body>
 </html>

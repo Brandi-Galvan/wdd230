@@ -139,7 +139,7 @@ nav ul li.active a {
     border: 2px solid black;
   }
 
-  .navigation li:first-child {
+.navigation li:first-child {
     display: block;
 }
 
@@ -149,6 +149,7 @@ nav ul li.active a {
 
 .responsive li {
     display: block;
+    font-size: 1rem;
 }
 
 .menu {
@@ -208,8 +209,8 @@ section {
 
 /* TEMPLES STYLING */
 #phxImg img {
-    width: 85%;
-    padding-top: 5px;
+    width: 91%;
+    padding-top: 20px;
 }
 
 #phxTemple ul{
