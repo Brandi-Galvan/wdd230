@@ -75,7 +75,7 @@ header {
 }
 
 .templeLogo {
-    height: 150px;
+    height: 120px;
 }
 
 .socialIcons {
@@ -438,3 +438,43 @@ form label.top input:required:valid {
     text-align: center;
     font-size: 1rem;
 }
+
+/* ***** SERVICES PAGE ***** */
+.servicesMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicesDiv {
+    text-align: left;
+}
+
+.servicesImg {
+    padding-top: 20px;
+}
+
+#services1 h2, #services2 h2 {
+    margin-top: 50px;
+}
+
+.feature #servicesImg1, .feature #servicesImg2 {
+    margin: 50px 0 0 50px;
+    width: 65%;
+}
+
+#services1, #services2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.servicesImg1, .servicesImg2 {
+    grid-column: 1 / 2;
+}
+
+.servicesGrid {
+    grid-column: 2 / 3;
+    line-height: 30px;
+}
+
