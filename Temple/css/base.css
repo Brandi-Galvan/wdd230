@@ -256,8 +256,7 @@ footer h2, footer p, footer a, .classFooter, .lastUpdated {
 
 /* ***** TEMPLES PAGE ***** */
 .templesMain {
-    display: flex;
-    flex-direction: column;
+    display: block;
     justify-content: center;
     align-items: center;
 }
@@ -266,17 +265,19 @@ footer h2, footer p, footer a, .classFooter, .lastUpdated {
     margin-top: 35px;
 }
 
+#templeHeading p, #templeHeading li, #templeHeading h4 {
+    margin-top: 10px;
+}
+
 #templeHeading li {
     list-style:none;
     text-align: center;
 }
 
 .templesPage {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: block;
     line-height: 1.5em;
+    width: 80%;
 }
 
 .templesPage img {

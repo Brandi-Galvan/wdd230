@@ -8,9 +8,9 @@
         "email": "phoen-off@churchofjesuschrist.org",
         "services": "Clothing rental available, no cafeteria available, no patron housing available, distribution center nearby",
         "history": "The Phoenix Temple was announced May 9, 2018 and they broke ground on June 4, 2011. It was officially dedicated on November 16, 2014.",
-        "bapSched": "Baptisms: 7AM to 12PM, 4PM to 8PM",
-        "endowSched": "Endowments: 7:30AM, 8:30AM, 9:30AM, 10:30AM, 4:30PM, 5:30PM, 6:30PM, 7:30PM**",
-        "initiatorySched": "Initiatory: 7:30AM to 12PM, 4PM to 8PM",
+        "bapSched": "7AM to 12PM, 4PM to 8PM",
+        "endowSched": "7:30AM, 8:30AM, 9:30AM, 10:30AM, 4:30PM, 5:30PM, 6:30PM, 7:30PM**",
+        "initiatorySched": "7:30AM to 12PM, 4PM to 8PM",
         "templeClosure": "April 2, 2022, May 16, 2022 to May 30, 2022, October 1, 2022, October 31, 2022 to November 14, 2022, November 23, 2022*, November 24, 2022, December 24, 2022, December 31, 2022"
       },
       {
@@ -21,9 +21,9 @@
         "email": "Denve-off@churchofjesuschrist.org",
         "services": "Clothing rental available, no cafeteria available, no patron housing available, distribution center nearby",
         "history": "The Denver, CO temple was announced March 31, 1982 and broke ground on May 19, 1984. It was officially dedicated on October 24, 1986.",
-        "bapSched": "Baptisms: 9AM, 10AM, 11AM, 12PM, 1PM, 2PM, 3PM, 4PM, 5PM, 6PM",
-        "endowSched": "Endownments: 8AM, 9AM, 9:30AM, 10AM, 11AM, 12PM, 1PM, 2PM, 3PM, 4PM, 5PM, 6PM, 6:30PM, 7PM",
-        "initiatorySched": "Initiatory: 8:30AM, 10:30AM, 2:30PM, 3:30PM, 4:30PM, 5:30PM, 6:30PM, 7:30PM",
+        "bapSched": "9AM, 10AM, 11AM, 12PM, 1PM, 2PM, 3PM, 4PM, 5PM, 6PM",
+        "endowSched": "8AM, 9AM, 9:30AM, 10AM, 11AM, 12PM, 1PM, 2PM, 3PM, 4PM, 5PM, 6PM, 6:30PM, 7PM",
+        "initiatorySched": "8:30AM, 10:30AM, 2:30PM, 3:30PM, 4:30PM, 5:30PM, 6:30PM, 7:30PM",
         "templeClosure": "April 2, 2022, April 18, 2022 to April 25, 2022, July 4, 2022, September 12, 2022 to October 24, 2022, November 23, 2022*, November 24, 2022, December 24, 2022, December 31, 2022*"
       },
       {
@@ -47,9 +47,9 @@
         "email": "portl-off@churchofjesuschrist.org",
         "services": "Clothing rental available, no cafeteria available, no patron housing available, distribution center nearby",
         "history": "The Portland, Oregon temple was announced April 7, 1984 and broke ground on September 20, 1986. It was officially dedicated on August 19, 1989.",
-        "bapSched": "Baptisms: 8AM to 10AM, 10AM to 1PM, 4PM to 7PM, 7PM to 8PM",
-        "endowSched": "Endownments: 8AM, 8:30AM, 9AM, 10AM, 11AM, 4PM, 5PM, 6PM, 7PM",
-        "initiatorySched": "Initiatory: 8AM to 12:30PM, 4PM to 8:30PM",
+        "bapSched": "8AM to 10AM, 10AM to 1PM, 4PM to 7PM, 7PM to 8PM",
+        "endowSched": "8AM, 8:30AM, 9AM, 10AM, 11AM, 4PM, 5PM, 6PM, 7PM",
+        "initiatorySched": "8AM to 12:30PM, 4PM to 8:30PM",
         "templeClosure": "April 2, 2022, July 4, 2022, July 18, 2022 to August 15, 2022, October 1, 2022, November 23, 2022*, November 24, 2022, December 24, 2022, December 25, 2022, December 31, 2022"
       },
       {
@@ -60,9 +60,9 @@
         "email": "memph-off@churchofjesuschrist.org",
         "services": "No clothing rental available, no cafeteria available, no patron housing available, distribution center nearby",
         "history": "The Memphis, Tennessee temple was announced September 17, 1998 and broke ground on January 16, 1999. It was officially dedicated on April 23rd, 2000 and then re-dedicated on May 5, 2019.",
-        "bapSched": "Baptisms: 9AM, 10:30AM, 6PM, 7:30PM",
-        "endowSched": "Endownments: 9AM, 10:30AM, 6PM, 7:30PM",
-        "initiatorySched": "Initiatory: 9AM, 10:45AM, 6PM, 7:45PM",
+        "bapSched": "9AM, 10:30AM, 6PM, 7:30PM",
+        "endowSched": "9AM, 10:30AM, 6PM, 7:30PM",
+        "initiatorySched": "9AM, 10:45AM, 6PM, 7:45PM",
         "templeClosure": "April 2, 2022, April 4, 2022 to May 30, 2022, October 1, 2022, November 24, 2022, December 24, 2022, December 31, 2022"
       }
     ]
