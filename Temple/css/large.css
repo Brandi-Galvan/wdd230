@@ -5,7 +5,8 @@
     }
 
     section {
-        max-width: 1120px;
+        max-width: 900px;
+        margin: 0 auto;
     }
     
     /* HEADER SECTION */
@@ -85,14 +86,6 @@
     }
 
     /* RESERVATION SECTION */
-.reserveGrid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-form input.submitBtn {
-    margin: 0px 0 0 250px;
-}
 
     /* TEMPLES SECTION */
     .templesMain {
@@ -124,6 +117,10 @@ form input.submitBtn {
         padding: 35px;
         display: block;
     }
+
+.roomType label input{
+    display: block;
+}
 /*Footer Section*/
 .footerLinks {
     padding: 20px;

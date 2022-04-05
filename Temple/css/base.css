@@ -334,13 +334,16 @@ footer h2, footer p, footer a, .classFooter, .lastUpdated {
     padding: 35px;
 }
 
+.temple-cards section p {
+    margin: 10px;
+}
+
 /* ***** RESERVATIONS PAGE ***** */
 .reservationsMain {
     justify-content: center;
     display: flex;
     flex-direction: column;
     padding: 15px;
-    max-width: 100%;
     margin: 0 auto;
     padding: 0px;
 }
@@ -351,43 +354,45 @@ footer h2, footer p, footer a, .classFooter, .lastUpdated {
     font-weight: 900;
 }
 
-#guestInfo select {
-    background-color:#eee;
-    font-size:108%;
-    width:300px;
-    height:36px;
-    border:1px solid #ccc;
-    -moz-border-radius:6px;
-    border-radius:6px
-}
-
 /* form section */
-
-form {
+.reserveForm {
+    padding: 25px;
+    margin-bottom: 25px;
     align-self: center;
     text-align: left;
-    margin-right: 90px;
 }
 
-form fieldset {
-    margin: 2rem 0;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 20px 15px;
-    max-width: 25rem;
-    padding-inline-end: 2rem;
+.reserveGrid > li > label + *, .reserveGrid {
+    flex: 1 0 220px;
 }
 
-form legend {
-    color: var(--forest);
-    font-size: 2em;
-    margin: 0 1rem;
-    padding: 0 .5rem;
+.reserveGrid li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
-form label.top, form div {
-    font-size: .8rem;
-    width: 133%;
+.reserveGrid > li > label, .reserveGrid li p {
+    flex: 1 0 120px;
+    max-width: 220px;
+    margin: 10px;
+}
+
+.reserveGrid li button {
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 18px;
+    transition-duration: .5s;
+    margin: 15px auto;
+}
+
+.reserveGrid button:hover {
+    cursor: pointer;
+    background-color: var(--forest);
+    transition-duration: .5s;
 }
 
 form label.top {
@@ -396,14 +401,11 @@ form label.top {
 
 form label.top input, form label.top select, textarea {
     -webkit-appearance:none;
-    display: block;
     font-size: 1rem;
     border: solid 1px #999;
     border-radius: 4px;
     padding: .75rem;
-    color: #555;
-    width: 100%;
-    max-width: 20rem;
+    color: #000;
     background-color: rgba(0,0,0,0.1)
 }
 
@@ -419,25 +421,6 @@ form label.sbs {
 
 form label.sbs:hover {
     cursor: pointer;
-}
-
-form input.submitBtn {
-    border: none;
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-    padding: 1rem;
-    margin: 0 0 0 66px;
-    font-size: 24px;
-    width: 96%;
-    max-width: 27rem;
-    transition-duration: .5s;
-}
-
-form input.submitBtn:hover {
-    cursor: pointer;
-    background-color: var(--forest);
-    transition-duration: .5s;
 }
 
 form label.top input:required {
