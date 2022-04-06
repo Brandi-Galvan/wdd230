@@ -347,7 +347,7 @@ footer h2, footer p, footer a, .classFooter, .lastUpdated {
 }
 
 /* heart button styling */
-#like {
+#heart {
     width: 14%;
     border: none;
     background-color: #fff;

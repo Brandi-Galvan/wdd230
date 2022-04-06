@@ -26,9 +26,9 @@ fetch(requestURL)
         let endow = document.createElement('p');
         let init = document.createElement('p');
         let clos = document.createElement('p');
-        let likebtn = document.createElement('button');
-        const likeImg = document.createElement('img');
-        likeImg.setAttribute('alt', 'like button image');
+        let heartbtn = document.createElement('button');
+        const heartImg = document.createElement('img');
+        heartImg.setAttribute('alt', 'heart button');
 
         //text
         h2.textContent = `${lds.name}`;
@@ -48,29 +48,29 @@ fetch(requestURL)
         pic.setAttribute('alt', `${lds.name} picture`);
 
         //heart like
-        likebtn.appendChild(likeImg);
+        heartbtn.appendChild(heartImg);
         if(localStorage.getItem(lds.name) == "true") {
-          likeImg.src = "../images/heart-filled.png";
+          heartImg.src = "../images/heart-filled.png";
           }
           else {
-              likeImg.src = "../images/heart-empty.png";
+              heartImg.src = "../images/heart-empty.png";
           }
       
-        likebtn.setAttribute('id', 'like');
-        likebtn.setAttribute('value', "like-btn");
-        likebtn.addEventListener("click", () => {
+        heartbtn.setAttribute('id', 'heart');
+        heartbtn.setAttribute('value', "like-btn");
+        heartbtn.addEventListener("click", () => {
               if(localStorage.getItem(lds.name) == "true") {
                 localStorage.setItem(lds.name, "false");
-                likeImg.src = "../images/heart-empty.png";
+                heartImg.src = "../images/heart-empty.png";
             }
             else {
                 localStorage.setItem(lds.name, "true");
-                likeImg.src = "../images/heart-filled.png";
+                heartImg.src = "../images/heart-filled.png";
             }
         })
 
         card.appendChild(pic);
-        card.append(likebtn);
+        card.append(heartbtn);
         card.appendChild(h2);
         card.appendChild(addr);
         card.appendChild(tel);
