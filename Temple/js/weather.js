@@ -20,11 +20,11 @@ fetch(apiURL)
     const alert = jsObject.alert;
 // Banner Weather Alert, closeable
     if (alert) {
-        const alertMessage = document.querySelector("#alert-message");
+        const alertMessage = document.querySelector("#weatherAlert");
         alertMessage.style.display = "block";
-        const message = alertMessage.querySelector("#message");
+        const message = alertMessage.querySelector("#alertMessage");
         message.textContent = alert.description;
-        const closeBtn = alertMessage.querySelector("#close-btn");
+        const closeBtn = alertMessage.querySelector("#closeable");
         closeBtn.addEventListener("click", () => {
             alertMessage.style.display = "none";
         });
