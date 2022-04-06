@@ -89,6 +89,11 @@
     grid-column: 2 / 3;
 }
 
+/*footer styling */
+p.ctaButton {
+    font-size: 20px;
+}
+
 /* ***** TEMPLES PAGE ***** */
 .templesPage section {
     display: grid;
@@ -115,7 +120,14 @@ p.templesPage:nth-child(2) {
 
 /* ***** SERVICES PAGE ***** */
 .servicesGrid ul {
-    line-height: 2rem;
+    margin-top: 20px;
+    line-height: 1.8rem;
+    font-size: 20px;
+}
+
+#services1 h2, #services2 h2 {
+    margin: 41px 0 0 -11px;
+    font-size: 32px;
 }
 
 /* heart button styling */

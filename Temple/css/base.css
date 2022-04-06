@@ -313,6 +313,11 @@ footer h2, footer p, footer a, .classFooter, .lastUpdated {
     margin-top: 15px;
 }
 
+p.ctaButton {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
 /* ***** TEMPLES PAGE ***** */
 .templesMain {
     display: block;
@@ -502,7 +507,8 @@ form label.top input:required:valid {
 }
 
 #services1 h2, #services2 h2 {
-    margin-top: 50px;
+    margin: 2px 0 0 -17px;
+    font-size: 20px;
 }
 
 .feature #servicesImg1, .feature #servicesImg2 {
@@ -513,10 +519,13 @@ form label.top input:required:valid {
 #services1, #services2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 35px;
 }
 
-.servicesImg1, .servicesImg2 {
+#servicesImg1, #servicesImg2 {
     grid-column: 1 / 2;
+    width: 100%;
+    padding: 10px;
 }
 
 .servicesGrid {
@@ -525,8 +534,26 @@ form label.top input:required:valid {
 }
 
 .servicesGrid ul {
-    margin-top: 20px;
-    line-height:normal;
+    margin-top: 3px;
+    line-height: 1rem;
+    font-size: 10px;
+}
+
+.learnMore {
+    padding:5px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.learnMore a{
+    color: white;
+    text-decoration: none;
+}
+
+.learnMore:hover {
+    cursor: pointer;
+    background-color: var(--forest);
+    transition-duration: .5s;
 }
 
 /* ***** MISSIONARIES PAGE ***** */
