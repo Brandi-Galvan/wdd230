@@ -45,7 +45,7 @@ p {
 
 /* Weather Banner alert*/
 #weatherBanner {
-    /* display: none; */
+    display: none;
     background-color: var(--forest);
     color: white;
     padding: 10px;
