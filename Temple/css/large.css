@@ -118,21 +118,25 @@
         display: block;
     }
 
-.roomType label input{
-    display: block;
-}
-/*Footer Section*/
-.footerLinks {
-    padding: 20px;
-}
+    .roomType label input{
+        display: block;
+    }
 
-.footerLinks p {
-    font-size: 16px;
-}
+    /* Services Image */
+    #servicesImage {
+        width: 45%;
+    }
+    /*Footer Section*/
+    .footerLinks {
+        padding: 20px;
+    }
 
-.footerLinks a {
-    padding: 0 14px;
-}
+    .footerLinks p {
+        font-size: 16px;
+    }
+    .footerLinks a {
+        padding: 0 14px;
+    }
 
 /* ***** SERVICES PAGE ***** */
 .servicesGrid ul {

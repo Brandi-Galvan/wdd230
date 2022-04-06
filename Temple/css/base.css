@@ -245,6 +245,14 @@ section {
     padding: 10px;
 }
 
+/* 3-day Forecast Styling */
+.forecastGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 29px auto;
+    width: 55%;
+}
+
 #denverTemple p, #mcallenTemple p {
     margin-top: 0;
 }
