@@ -6,7 +6,7 @@
         "address": "5104 W Pinnacle Peak Rd. Glendale, AZ 85310",
         "phone": "(623) 474-9500",
         "email": "phoen-off@churchofjesuschrist.org",
-        "services": "Clothing rental available, no cafeteria available, no patron housing available, distribution center nearby",
+        "services": ["Clothing rental available, no cafeteria available, no patron housing available, distribution center nearby"],
         "history": "The Phoenix Temple was announced May 9, 2018 and they broke ground on June 4, 2011. It was officially dedicated on November 16, 2014.",
         "bapSched": "7AM to 12PM, 4PM to 8PM",
         "endowSched": "7:30AM, 8:30AM, 9:30AM, 10:30AM, 4:30PM, 5:30PM, 6:30PM, 7:30PM**",

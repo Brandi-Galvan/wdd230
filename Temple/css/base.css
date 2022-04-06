@@ -346,6 +346,13 @@ footer h2, footer p, footer a, .classFooter, .lastUpdated {
     margin: 10px;
 }
 
+/* heart button styling */
+#like {
+    width: 14%;
+    border: none;
+    background-color: #fff;
+}
+
 /* ***** RESERVATIONS PAGE ***** */
 .reservationsMain {
     justify-content: center;

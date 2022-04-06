@@ -118,5 +118,10 @@ p.templesPage:nth-child(2) {
     line-height: 2rem;
 }
 
+/* heart button styling */
+#like {
+    float: left;
+}
+
 
 }

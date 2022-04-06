@@ -26,6 +26,9 @@ fetch(requestURL)
         let endow = document.createElement('p');
         let init = document.createElement('p');
         let clos = document.createElement('p');
+        let likebtn = document.createElement('button');
+        const likeImg = document.createElement('img');
+        likeImg.setAttribute('alt', 'like button image');
 
         //text
         h2.textContent = `${lds.name}`;
@@ -44,7 +47,30 @@ fetch(requestURL)
         pic.setAttribute('loading', 'lazy');
         pic.setAttribute('alt', `${lds.name} picture`);
 
+        //heart like
+        likebtn.appendChild(likeImg);
+        if(localStorage.getItem(lds.name) == "true") {
+          likeImg.src = "../images/heart-filled.png";
+          }
+          else {
+              likeImg.src = "../images/heart-empty.png";
+          }
+      
+        likebtn.setAttribute('id', 'like');
+        likebtn.setAttribute('value', "like-btn");
+        likebtn.addEventListener("click", () => {
+              if(localStorage.getItem(lds.name) == "true") {
+                localStorage.setItem(lds.name, "false");
+                likeImg.src = "../images/heart-empty.png";
+            }
+            else {
+                localStorage.setItem(lds.name, "true");
+                likeImg.src = "../images/heart-filled.png";
+            }
+        })
+
         card.appendChild(pic);
+        card.append(likebtn);
         card.appendChild(h2);
         card.appendChild(addr);
         card.appendChild(tel);
@@ -58,4 +84,3 @@ fetch(requestURL)
 
         cards.prepend(card);
     }
-
