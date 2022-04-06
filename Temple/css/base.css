@@ -43,6 +43,14 @@ p {
     cursor: pointer;
 }
 
+/* Weather Banner alert*/
+#weatherBanner {
+    /* display: none; */
+    background-color: var(--forest);
+    color: white;
+    padding: 10px;
+}
+
 /* *****HEADER STYLING***** */
 body {
     background-color: white;

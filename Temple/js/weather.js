@@ -20,13 +20,13 @@ fetch(apiURL)
     const alert = jsObject.alert;
 // Banner Weather Alert, closeable
     if (alert) {
-        const alertMessage = document.querySelector("#weatherAlert");
-        alertMessage.style.display = "block";
-        const message = alertMessage.querySelector("#alertMessage");
+        const weatherAlert = document.querySelector("#weatherBanner");
+        weatherAlert.style.display = "block";
+        const message = weatherAlert.querySelector("#weatherAlert");
         message.textContent = alert.description;
-        const closeBtn = alertMessage.querySelector("#closeable");
+        const closeBtn = weatherAlert.querySelector("#closeable");
         closeBtn.addEventListener("click", () => {
-            alertMessage.style.display = "none";
+            weatherAlert.style.display = "none";
         });
     }
 // 3-day forecast section
