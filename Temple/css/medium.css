@@ -135,5 +135,10 @@ p.templesPage:nth-child(2) {
     float: left;
 }
 
+/* ***** RESERVATIONS PAGE ***** */
+#reserveName {
+    font-size: 45px;
+}
+
 
 }

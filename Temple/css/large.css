@@ -87,6 +87,15 @@
 
     /* RESERVATION SECTION */
 
+    li.roomType {
+        text-align: left;
+        display: block;
+    }
+
+    .roomType input {
+        margin: 0 10px 0 0;
+    }
+
     /* TEMPLES SECTION */
     .templesMain {
         display: flex;
@@ -115,10 +124,6 @@
         box-shadow: 2px 2px 7px 0px black;
         margin: 20px;
         padding: 35px;
-        display: block;
-    }
-
-    .roomType label input{
         display: block;
     }
 

@@ -57,12 +57,11 @@
 <!-- --------  MAIN SECTION  -------- -->
 <main class="reservationsMain">
     <section>
-    <h1>Book Your Room at Temple Inn & Suites</h1>
-    <p>Availability on all of our rooms and suites are on a first-come first-serve basis, however our FT missionaries and temple workers are given first priority. Please fill out the form below and a representative will contact you within 48 hours of your inquiry with more information and pricing.</p>
+    <h1><i>Book Your Room at</i><br><span id="reserveName">Temple Inn & Suites</span></h1>
+    <p id="reservationP">Availability on all of our rooms and suites are on a first-come first-serve basis, however our FT missionaries and temple workers are given first priority. Please fill out the form below and a representative will contact you within 48 hours of your inquiry with more information and pricing.</p>
 </section>
         <form method="get" action="thanks.html" class="reserveForm">
                 <ul class="reserveGrid">
-                    <h3>Guest Information</h3>
                     <li>
                         <label for="name" class="top">Full Name*</label>
                         <input type="text" name="fname" required minlength="3" maxlength="40" pattern="[A-Z][A-Za-z' -]+">
@@ -86,7 +85,6 @@
                             <option value="phoenix">Phoenix, Arizona</option>
                         </select>
                     </li>
-                    <li><h3>Reservation Date</h3></li>
                     <li>
                         <label for="checkIn" class="top" required>Check-In*</label>
                         <input type="date" id="checkIn" name="CheckIn" required>
@@ -95,7 +93,7 @@
                         <label for="checkOut" class="top" required>Check-Out*</label>
                         <input type="date" id="checkOut" name="CheckOut" required>
                     </li>
-                    <li><h3>Room Type*</h3></li>
+                    <li><p>Room Type*</p></li>
                     <li class="roomType">
                         <label class="sbs"><input type="radio" name="room" value="room1">Room-1 Queen</label>
                         <label class="sbs"><input type="radio" name="room" value="room2">Room -2 Queens</label>
@@ -107,8 +105,8 @@
                         <label for="state">State* </label>
                         <select id="state" name="state"><option value="---">---</option><option value ="outofCountry">Out of Country</option><option value="Alabama">Alabama</option><option value="Alaska">Alaska</option><option value="Arizona">Arizona</option><option value="Arkansas">Arkansas</option><option value="California">California</option><option value="Colorado">Colorado</option><option value="Connecticut">Connecticut</option><option value="Delaware">Delaware</option><option value="District of Columbia">District of Columbia</option><option value="Florida">Florida</option><option value="Georgia">Georgia</option><option value="Guam">Guam</option><option value="Hawaii">Hawaii</option><option value="Idaho">Idaho</option><option value="Illinois">Illinois</option><option value="Indiana">Indiana</option><option value="Iowa">Iowa</option><option value="Kansas">Kansas</option><option value="Kentucky">Kentucky</option><option value="Louisiana">Louisiana</option><option value="Maine">Maine</option><option value="Maryland">Maryland</option><option value="Massachusetts">Massachusetts</option><option value="Michigan">Michigan</option><option value="Minnesota">Minnesota</option><option value="Mississippi">Mississippi</option><option value="Missouri">Missouri</option><option value="Montana">Montana</option><option value="Nebraska">Nebraska</option><option value="Nevada">Nevada</option><option value="New Hampshire">New Hampshire</option><option value="New Jersey">New Jersey</option><option value="New Mexico">New Mexico</option><option value="New York">New York</option><option value="North Carolina">North Carolina</option><option value="North Dakota">North Dakota</option><option value="Northern Marianas Islands">Northern Marianas Islands</option><option value="Ohio">Ohio</option><option value="Oklahoma">Oklahoma</option><option value="Oregon">Oregon</option><option value="Pennsylvania">Pennsylvania</option><option value="Puerto Rico">Puerto Rico</option><option value="Rhode Island">Rhode Island</option><option value="South Carolina">South Carolina</option><option value="South Dakota">South Dakota</option><option value="Tennessee">Tennessee</option><option value="Texas">Texas</option><option value="Utah">Utah</option><option value="Vermont">Vermont</option><option value="Virginia">Virginia</option><option value="Virgin Islands">Virgin Islands</option><option value="Washington">Washington</option><option value="West Virginia">West Virginia</option><option value="Wisconsin">Wisconsin</option><option value="Wyoming">Wyoming</option></select><br>
                     </li>
-                    <li>
-                        <label class="top">Special Accomodations or Comments</label>
+                    <li id="accomodations">
+                        <label class="top accomLabel">Accomodations & Comments</label>
                         <textarea name="guestComments" placeholder="Please use this area to make us aware of any and all special accomodations, questions, concerns, or general comments you may have about your stay with us."></textarea>
                     </li>
                     <li>

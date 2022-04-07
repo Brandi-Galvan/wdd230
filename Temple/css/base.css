@@ -391,7 +391,7 @@ p.ctaButton {
 }
 
 .reserveGrid > li > label + *, .reserveGrid {
-    flex: 1 0 220px;
+    flex: 10 0 220px;
 }
 
 .reserveGrid li {
@@ -424,7 +424,7 @@ p.ctaButton {
 }
 
 form label.top {
-    margin-top: 6px;
+    margin-top: 12px;
 }
 
 form label.top input, form label.top select, textarea {
@@ -437,13 +437,27 @@ form label.top input, form label.top select, textarea {
     background-color: rgba(0,0,0,0.1)
 }
 
-textarea {
-    overflow: auto;
+#accomodations .accomLabel {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#reservationP {
+    padding: 20px;
+}
+
+#reserveName {
+    font-size: 37px;
+}
+
+.reserveGrid li label, .reserveGrid p {
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--forest)
 }
 
 form label.sbs {
-    display: block;
-    font-weight: bold;
     margin-top: 6px;
 }
 
@@ -461,6 +475,10 @@ form label.top input:required:valid {
 
 #reservationInfo h3 {
     margin-bottom: 10px;
+}
+
+#accomodations {
+    display: block;
 }
 
 /* thank you page */
@@ -635,7 +653,7 @@ form label.top input:required:valid {
     background-color: rgba(0,0,0,0.1)
 }
 
-textarea {
+.contactForm textarea {
     overflow: auto;
 }
 
